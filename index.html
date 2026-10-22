@@ -9,16 +9,42 @@
 .contact{position:relative;padding:35px 5.4%;background:linear-gradient(110deg,#091522,#111b29 73%,#161c25);border-top:1px solid #987b586a;display:grid;grid-template-columns:1fr 1.1fr auto;gap:25px;align-items:center}.contact:after{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 87% 40%,#9b704528,transparent 40%)}.contact>*{position:relative;z-index:1}.contact h2{font-size:34px;line-height:.92;margin:0 0 10px}.contact-sub{font-size:12px;color:#d1d0d0;line-height:1.5}.contact-items{border-left:1px solid #9a7a54;padding-left:30px;display:grid;gap:12px;font-size:14px;color:#d8dbe0}.contact-items div span{color:#d6a470;font-size:17px;display:inline-block;width:29px}.contact .btn{min-width:210px}
 .footer{height:75px;display:flex;justify-content:space-between;align-items:center;padding:0 5.4%;border-top:1px solid #8b6c4855}.footer .wordmark{font-size:22px}.footertext{letter-spacing:.32em;font-size:8px;color:#b3b7c1}.event{font-size:10px;color:#aaaeb6;letter-spacing:.15em;text-align:right}
 @media(max-width:700px){.site-header{height:65px;padding:0 20px}.identity-small{font-size:7px;padding-left:10px}.wordmark{font-size:21px}.nav{display:none}.hero{height:650px}.hero::before{background-size:auto 73%;background-position:center top 22px}.hero::after{background:linear-gradient(0deg,#06121f 8%,#06121fbe 36%,#06121f00 73%),linear-gradient(90deg,#06121f64,transparent 72%)}.hero-inner{left:24px;right:24px;top:auto;bottom:44px}.hero h1{font-size:clamp(56px,14vw,74px)}.hero-company{margin-bottom:20px}.hollywood{height:535px}.hollywood::before{background-size:auto 65%;background-position:center top}.hollywood::after{background:linear-gradient(0deg,#06111e 7%,#06111ee8 38%,transparent 74%)}.feature-copy{left:24px;right:24px;top:auto;bottom:26px}.hollywood h2{font-size:56px}.feature-intro{margin:0}.feature-rule{margin:12px 0}.projects{padding:37px 20px}.projects-header{margin-bottom:23px}.projects-label:after{width:40px}.projects-note{max-width:120px;text-align:right;font-size:8px}.grid{grid-template-columns:1fr;gap:28px}.work img{aspect-ratio:auto;height:auto;max-height:390px;object-fit:contain;object-position:center;background:#111c2b}.work h3{font-size:22px;margin:11px 0 5px}.work p{font-size:12px}.contact{grid-template-columns:1fr;padding:35px 23px;gap:20px}.contact h2{font-size:40px}.contact-items{padding-left:15px}.contact .btn{width:100%}.footer{padding:20px;gap:10px;height:auto;flex-wrap:wrap}.footertext{display:none}}
+
+/* Final editorial refinements: uncropped arena and architectural imagery */
+.identity-small{font-size:8px;line-height:1.65;letter-spacing:.15em}
+.hero{background:radial-gradient(ellipse at 75% 40%,#1f3042 0%,#081625 68%)}
+.hero::before{background-size:min(82vw,1200px) auto;background-position:right center;filter:saturate(.96)}
+.hero::after{background:linear-gradient(90deg,#07131ffb 0%,#07131ff0 21%,#07131fc8 33%,#07131f38 53%,transparent 75%)}
+.hero-inner{left:5.4%;top:105px;padding:20px 29px 20px 0;max-width:405px}
+.hero-project{display:flex;align-items:center;gap:10px;font-size:11px;letter-spacing:.14em;color:#e2cbac;margin:-6px 0 23px}
+.hero-project-line{width:24px;height:1px;background:var(--gold);display:inline-block}
+.hollywood h2{font-size:clamp(42px,5vw,56px)}
+.work img{aspect-ratio:1.89;object-fit:contain;object-position:center;background:#111d2a}
+.work-wide{grid-column:1/-1;max-width:700px;margin:5px auto 0;width:100%}
+.work-wide img{aspect-ratio:2.2;max-height:340px;object-fit:contain}
+@media(max-width:700px){
+ .identity-small{font-size:7px;letter-spacing:.08em}
+ .hero{height:690px}
+ .hero::before{background-size:100% auto;background-position:center 76px}
+ .hero::after{background:linear-gradient(0deg,#06121f 9%,#06121ff5 34%,#06121f1a 68%,transparent 80%)}
+ .hero-inner{left:24px;right:24px;top:auto;bottom:35px;padding:0}
+ .hero-project{margin:-4px 0 18px}
+ .hollywood h2{font-size:46px}
+ .work img,.work-wide img{aspect-ratio:auto;max-height:none;object-fit:contain}
+ .work-wide{max-width:none}
+ .projects-note{font-size:8px;letter-spacing:.1em}
+}
 </style></head><body>
-<header class="site-header"><div class="identity"><div class="wordmark">LAITEC</div><div class="identity-small">СВЕТ<br>АРХИТЕКТУРА<br>ПРОЕКТЫ</div></div><nav class="nav"><a href="#projects">ПРОЕКТЫ</a><a href="#architecture">АРХИТЕКТУРА</a><a href="#contact">КОНТАКТЫ</a></nav></header>
-<main><section class="hero"><div class="hero-inner"><h1 class="serif">Марина<br>Малышева</h1><p class="role">РУКОВОДИТЕЛЬ ПРОЕКТОВ</p><div class="hero-company">LAITEC</div><div class="actions"><a class="btn btn-gold" href="Marina_Malysheva_LAITEC.vcf" download><span>Сохранить контакт</span><span>→</span></a><a class="btn btn-ghost" href="mailto:info@laitec.ru?subject=Марине%20Малышевой%20после%20Interlight"><span>Написать</span><span>→</span></a></div></div></section>
+<header class="site-header"><div class="identity"><div class="wordmark">LAITEC</div><div class="identity-small">ОСВЕЩЕНИЕ<br>ПРОЕКТИРОВАНИЕ<br>РЕАЛИЗАЦИЯ</div></div><nav class="nav"><a href="#projects">ПРОЕКТЫ</a><a href="#architecture">АРХИТЕКТУРА</a><a href="#contact">КОНТАКТЫ</a></nav></header>
+<main><section class="hero"><div class="hero-inner"><h1 class="serif">Марина<br>Малышева</h1><p class="role">РУКОВОДИТЕЛЬ ПРОЕКТОВ</p><div class="hero-company">LAITEC</div><div class="hero-project"><span class="hero-project-line"></span> ВТБ Арена · Проект 2026</div><div class="actions"><a class="btn btn-gold" href="Marina_Malysheva_LAITEC.vcf" download><span>Сохранить контакт</span><span>→</span></a><a class="btn btn-ghost" href="mailto:info@laitec.ru?subject=Марине%20Малышевой%20после%20Interlight"><span>Написать</span><span>→</span></a></div></div></section>
 <section class="hollywood" id="architecture"><div class="feature-copy"><div class="idx">01</div><h2 class="serif">ТРК<br>«Голливуд»</h2><p class="feature-intro">Санкт-Петербург ·<br>архитектурно-художественное<br>освещение</p><div class="feature-rule"></div><div class="feature-scope">Светотехнический проект ·<br>поставка · пусконаладка</div></div></section>
-<section class="projects" id="projects"><div class="projects-header"><span class="projects-label">ПРОЕКТЫ</span><span class="projects-note">СПОРТ И АРХИТЕКТУРА</span></div><div class="grid">
+<section class="projects" id="projects"><div class="projects-header"><span class="projects-label">ПРОЕКТЫ</span><span class="projects-note">СПОРТИВНОЕ И АРХИТЕКТУРНОЕ ОСВЕЩЕНИЕ</span></div><div class="grid">
 <article class="work"><img src="assets/lukoil.webp" alt="ЛУКОЙЛ Арена, Москва"><div class="caption-row"><div><h3 class="serif">ЛУКОЙЛ Арена</h3><p>Москва · проект · поставка · юстировка</p></div><span class="decor-arrow">— →</span></div></article>
 <article class="work"><img src="assets/sokolniki.webp" alt="Спартак Сокольники, проект освещения"><div class="caption-row"><div><h3 class="serif">Спартак Сокольники</h3><p>Москва · проектирование спортивных площадок и манежей</p></div><span class="decor-arrow">— →</span></div></article>
 <article class="work"><img src="assets/luzhniki.webp" alt="Дворец спорта Лужники, визуализация архитектурного освещения"><div class="caption-row"><div><h3 class="serif">ДС «Лужники»</h3><p>Москва · архитектурное освещение · проектный кейс</p></div><span class="decor-arrow">— →</span></div></article>
 <article class="work"><img src="assets/ekaterininsky.webp" alt="Екатерининский институт, визуализация архитектурного освещения"><div class="caption-row"><div><h3 class="serif">Екатерининский институт</h3><p>Санкт-Петербург · концепция · светотехнический проект</p></div><span class="decor-arrow">— →</span></div></article>
-</div><p class="actual">Фото реализованных работ и визуализации проектных решений</p></section>
+<article class="work work-wide"><img src="assets/ushakov.webp" alt="Собор Феодора Ушакова — архитектурное освещение"><div class="caption-row"><div><h3 class="serif">Собор Феодора Ушакова</h3><p>Саранск · архитектурное освещение · проект и реализация</p></div></div></article>
+</div><p class="actual">Фотографии объектов и визуализации проектных решений</p></section>
 <section class="contact" id="contact"><div><h2 class="serif">Марина<br>Малышева</h2><div class="contact-sub">Руководитель проектов<br>ООО «Лайтек»</div></div><div class="contact-items"><div><span>♧</span><a href="tel:+79234313517">+7 923 431 35 17</a></div><div><span>✉</span><a href="mailto:info@laitec.ru">info@laitec.ru</a></div><div><span>◎</span><a href="https://laitec.ru">laitec.ru</a></div></div><a class="btn btn-gold" href="Marina_Malysheva_LAITEC.vcf" download><span>Сохранить контакт</span><span>→</span></a></section></main>
-<footer class="footer"><span class="wordmark">LAITEC</span><span class="footertext">СВЕТ · АРХИТЕКТУРА · ПРОЕКТЫ</span><span class="event">INTERLIGHT<br>MOSCOW</span></footer>
+<footer class="footer"><span class="wordmark">LAITEC</span><span class="footertext">ОСВЕЩЕНИЕ · ПРОЕКТИРОВАНИЕ · РЕАЛИЗАЦИЯ</span><span class="event">INTERLIGHT<br>MOSCOW</span></footer>
 </body></html>
