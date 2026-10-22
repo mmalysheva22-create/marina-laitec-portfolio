@@ -34,9 +34,29 @@
  .work-wide{max-width:none}
  .projects-note{font-size:8px;letter-spacing:.1em}
 }
+
+/* 22 October: approved hero art direction: stadium full-bleed, small name and translucent veil */
+.hero{height:500px;isolation:isolate;background:#07131f;}
+.hero::before{background-size:cover;background-position:center 52%;filter:none;}
+.hero::after{background:linear-gradient(90deg,rgba(3,12,22,.58) 0%,rgba(3,12,22,.12) 41%,transparent 67%);}
+.hero-inner{top:119px;left:4.9%;padding:27px 34px 24px 26px;max-width:340px;background:linear-gradient(112deg,rgba(4,15,29,.65),rgba(6,18,33,.36));border:1px solid rgba(238,216,190,.09);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);}
+.hero h1{font-size:clamp(43px,4.65vw,57px);line-height:.96;margin-bottom:19px;}
+.hero .role{font-size:10px;letter-spacing:.23em;}
+.hero .hero-company{font-size:19px;letter-spacing:.34em;margin-bottom:24px;}
+.hero-caption{position:absolute;right:3.2%;bottom:16px;padding:7px 13px;background:rgba(4,15,29,.24);font-size:10px;letter-spacing:.13em;color:rgba(239,238,235,.82);text-shadow:0 1px 6px #06121f;}
+.hero-caption span{color:#cda675;padding:0 4px;}
+@media(max-width:700px){
+.hero{height:660px;}
+.hero::before{background-size:cover;background-position:54% 36%;}
+.hero::after{background:linear-gradient(0deg,rgba(5,14,26,.85) 0%,rgba(5,14,26,.25) 61%,rgba(5,14,26,.10) 100%);}
+.hero-inner{bottom:58px;top:auto;left:17px;right:17px;max-width:350px;padding:21px 20px 20px;background:linear-gradient(115deg,rgba(4,15,29,.66),rgba(6,18,33,.38));}
+.hero h1{font-size:clamp(43px,10.8vw,54px);}
+.hero .hero-company{margin-bottom:20px;}
+.hero-caption{right:17px;bottom:12px;font-size:9px;padding:3px 0;background:none;}
+}
 </style></head><body>
 <header class="site-header"><div class="identity"><div class="wordmark">LAITEC</div><div class="identity-small">ОСВЕЩЕНИЕ<br>ПРОЕКТИРОВАНИЕ<br>РЕАЛИЗАЦИЯ</div></div><nav class="nav"><a href="#projects">ПРОЕКТЫ</a><a href="#architecture">АРХИТЕКТУРА</a><a href="#contact">КОНТАКТЫ</a></nav></header>
-<main><section class="hero"><div class="hero-inner"><h1 class="serif">Марина<br>Малышева</h1><p class="role">РУКОВОДИТЕЛЬ ПРОЕКТОВ</p><div class="hero-company">LAITEC</div><div class="hero-project"><span class="hero-project-line"></span> ВТБ Арена · Проект 2026</div><div class="actions"><a class="btn btn-gold" href="Marina_Malysheva_LAITEC.vcf" download><span>Сохранить контакт</span><span>→</span></a><a class="btn btn-ghost" href="mailto:info@laitec.ru?subject=Марине%20Малышевой%20после%20Interlight"><span>Написать</span><span>→</span></a></div></div></section>
+<main><section class="hero"><div class="hero-inner"><h1 class="serif">Марина<br>Малышева</h1><p class="role">РУКОВОДИТЕЛЬ ПРОЕКТОВ</p><div class="hero-company">LAITEC</div><div class="actions"><a class="btn btn-gold" href="Marina_Malysheva_LAITEC.vcf" download><span>Сохранить контакт</span><span>→</span></a><a class="btn btn-ghost" href="mailto:info@laitec.ru?subject=Марине%20Малышевой%20после%20Interlight"><span>Написать</span><span>→</span></a></div></div><div class="hero-caption">ВТБ Арена <span>·</span> Проект 2026</div></section>
 <section class="hollywood" id="architecture"><div class="feature-copy"><div class="idx">01</div><h2 class="serif">ТРК<br>«Голливуд»</h2><p class="feature-intro">Санкт-Петербург ·<br>архитектурно-художественное<br>освещение</p><div class="feature-rule"></div><div class="feature-scope">Светотехнический проект ·<br>поставка · пусконаладка</div></div></section>
 <section class="projects" id="projects"><div class="projects-header"><span class="projects-label">ПРОЕКТЫ</span><span class="projects-note">СПОРТИВНОЕ И АРХИТЕКТУРНОЕ ОСВЕЩЕНИЕ</span></div><div class="grid">
 <article class="work"><img src="assets/lukoil.webp" alt="ЛУКОЙЛ Арена, Москва"><div class="caption-row"><div><h3 class="serif">ЛУКОЙЛ Арена</h3><p>Москва · проект · поставка · юстировка</p></div><span class="decor-arrow">— →</span></div></article>
