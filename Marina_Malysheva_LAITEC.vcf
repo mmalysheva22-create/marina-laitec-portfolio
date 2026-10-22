@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Малышева;Марина;;;
+FN:Марина Малышева
+ORG:ООО «Лайтек»
+TITLE:Руководитель проектов
+TEL;TYPE=CELL:+79234313517
+EMAIL;TYPE=WORK:info@laitec.ru
+URL:https://laitec.ru
+ADR;TYPE=WORK:;;Санкт-Петербург;;;Россия
+NOTE:Спортивное, архитектурное и промышленное освещение
+END:VCARD
