@@ -1,213 +1,244 @@
 <!doctype html>
-<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#07131f"><meta name="description" content="Марина Малышева, руководитель проектов LAITEC. Спортивное и архитектурное освещение."><title>Марина Малышева × LAITEC</title>
-<style>
-:root{--navy:#07131f;--navy2:#0c1928;--gold:#c9a16d;--ivory:#eee9e0;--silver:#bec5ca}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--navy);color:var(--ivory);font-family:'Segoe UI',Arial,sans-serif;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}img{max-width:100%;display:block}.serif{font-family:'Bodoni MT','Didot','Iowan Old Style','Times New Roman',Georgia,serif;font-weight:400;letter-spacing:-.03em}.bar{height:1px;background:linear-gradient(90deg,transparent,#ad825087,transparent)}
-.site-header{position:absolute;z-index:4;top:0;left:0;right:0;height:83px;display:flex;align-items:center;justify-content:space-between;padding:0 5.2%;border-bottom:1px solid rgba(213,171,113,.09)}.wordmark{font-size:27px;font-weight:300;letter-spacing:.29em;color:#e3ae6c}.identity{display:flex;align-items:center;gap:20px}.identity-small{font-size:9px;letter-spacing:.21em;line-height:1.48;color:#c7cbd2;border-left:1px solid #aa8c6a;padding-left:19px}.nav{display:flex;gap:30px}.nav a{font-size:10px;letter-spacing:.17em;text-transform:uppercase;color:#d1d1d9}
-.hero,.hollywood{position:relative;overflow:hidden;isolation:isolate}.hero{height:445px}.hero::before,.hollywood::before{content:'';position:absolute;inset:0;z-index:-1;background-repeat:no-repeat;background-size:cover}.hero::before{background-image:url('assets/vtb_new.webp');background-position:center 48%}.hero::after,.hollywood::after{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none}.hero::after{background:linear-gradient(90deg,#06121ff5 0%,#071524de 24%,#07152470 41%,#06121f00 77%),linear-gradient(0deg,#06111f25,transparent 80%)}.hero-inner{position:absolute;left:5.4%;top:116px;max-width:395px}.hero h1{font-size:clamp(52px,6.2vw,73px);line-height:.88;margin:0 0 20px}.role{font-size:11px;letter-spacing:.31em;color:#e1dcd5;margin:0 0 17px}.hero-company{font-size:22px;letter-spacing:.38em;color:#d6a36b;margin-bottom:25px}.actions{display:flex;flex-direction:column;align-items:flex-start;gap:11px}.btn{min-width:203px;min-height:42px;border:1px solid #b08c61;display:inline-flex;align-items:center;justify-content:space-between;padding:0 23px;font-size:13px;letter-spacing:.04em;transition:transform .2s,background .2s}.btn:hover{transform:translateY(-2px)}.btn-gold{background:linear-gradient(90deg,#a87d4e,#d4b17e);color:white;border-color:#c59c66}.btn-ghost{background:#08142180;border-color:#9b7855;color:#f1e8e0}.btn span:last-child{font-size:20px;font-weight:200}
-.hollywood{height:338px;border-top:1px solid #9979575c;border-bottom:1px solid #9979575c}.hollywood::before{background-image:url('assets/hollywood.webp');background-position:center 52%}.hollywood::after{background:linear-gradient(90deg,#06111e 0%,#06111ef2 20%,#071424d7 32%,#07142439 55%,transparent 75%)}.feature-copy{position:absolute;left:5.4%;top:31px;max-width:282px}.idx{font-size:14px;letter-spacing:.11em;color:#d9a973;margin-bottom:18px}.idx:after{content:'';display:inline-block;width:50px;height:1px;background:#b38a59;vertical-align:middle;margin-left:12px}.hollywood h2{font-size:clamp(48px,5.8vw,64px);line-height:.93;margin:0 0 16px}.feature-intro{font-size:14px;line-height:1.42;color:#e5e2df;max-width:240px}.feature-rule{height:1px;background:#b38a596f;width:145px;margin:18px 0}.feature-scope{font-size:10px;letter-spacing:.22em;line-height:1.65;text-transform:uppercase;color:#d7d4d4}
-.projects{background:radial-gradient(ellipse at 65% 20%,#142439 0%,#081521 63%);padding:23px 4.9% 30px}.projects-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px}.projects-label{font-size:12px;letter-spacing:.22em;color:var(--gold)}.projects-label:after{content:'';display:inline-block;height:1px;background:#967650;width:180px;vertical-align:middle;margin-left:20px}.projects-note{font-size:9px;letter-spacing:.25em;color:#c3c4ca;text-transform:uppercase}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:17px;row-gap:16px}.work img{width:100%;aspect-ratio:2.2;object-fit:cover;object-position:center;filter:saturate(.97)}.work h3{font-size:20px;line-height:1.1;margin:8px 0 3px}.work p{font-size:11px;color:#c0c6ce;letter-spacing:.02em;margin:0;line-height:1.3}.caption-row{display:flex;align-items:center;justify-content:space-between;gap:10px}.decor-arrow{color:#d5a874;font-size:19px;white-space:nowrap}.projects .actual{font-size:9px;color:#929dab;letter-spacing:.14em;margin:18px 0 0;text-transform:uppercase}
-.contact{position:relative;padding:35px 5.4%;background:linear-gradient(110deg,#091522,#111b29 73%,#161c25);border-top:1px solid #987b586a;display:grid;grid-template-columns:1fr 1.1fr auto;gap:25px;align-items:center}.contact:after{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 87% 40%,#9b704528,transparent 40%)}.contact>*{position:relative;z-index:1}.contact h2{font-size:34px;line-height:.92;margin:0 0 10px}.contact-sub{font-size:12px;color:#d1d0d0;line-height:1.5}.contact-items{border-left:1px solid #9a7a54;padding-left:30px;display:grid;gap:12px;font-size:14px;color:#d8dbe0}.contact-items div span{color:#d6a470;font-size:17px;display:inline-block;width:29px}.contact .btn{min-width:210px}
-.footer{height:75px;display:flex;justify-content:space-between;align-items:center;padding:0 5.4%;border-top:1px solid #8b6c4855}.footer .wordmark{font-size:22px}.footertext{letter-spacing:.32em;font-size:8px;color:#b3b7c1}.event{font-size:10px;color:#aaaeb6;letter-spacing:.15em;text-align:right}
-@media(max-width:700px){.site-header{height:65px;padding:0 20px}.identity-small{font-size:7px;padding-left:10px}.wordmark{font-size:21px}.nav{display:none}.hero{height:650px}.hero::before{background-size:auto 73%;background-position:center top 22px}.hero::after{background:linear-gradient(0deg,#06121f 8%,#06121fbe 36%,#06121f00 73%),linear-gradient(90deg,#06121f64,transparent 72%)}.hero-inner{left:24px;right:24px;top:auto;bottom:44px}.hero h1{font-size:clamp(56px,14vw,74px)}.hero-company{margin-bottom:20px}.hollywood{height:535px}.hollywood::before{background-size:auto 65%;background-position:center top}.hollywood::after{background:linear-gradient(0deg,#06111e 7%,#06111ee8 38%,transparent 74%)}.feature-copy{left:24px;right:24px;top:auto;bottom:26px}.hollywood h2{font-size:56px}.feature-intro{margin:0}.feature-rule{margin:12px 0}.projects{padding:37px 20px}.projects-header{margin-bottom:23px}.projects-label:after{width:40px}.projects-note{max-width:120px;text-align:right;font-size:8px}.grid{grid-template-columns:1fr;gap:28px}.work img{aspect-ratio:auto;height:auto;max-height:390px;object-fit:contain;object-position:center;background:#111c2b}.work h3{font-size:22px;margin:11px 0 5px}.work p{font-size:12px}.contact{grid-template-columns:1fr;padding:35px 23px;gap:20px}.contact h2{font-size:40px}.contact-items{padding-left:15px}.contact .btn{width:100%}.footer{padding:20px;gap:10px;height:auto;flex-wrap:wrap}.footertext{display:none}}
-
-/* Final editorial refinements: uncropped arena and architectural imagery */
-.identity-small{font-size:8px;line-height:1.65;letter-spacing:.15em}
-.hero{background:radial-gradient(ellipse at 75% 40%,#1f3042 0%,#081625 68%)}
-.hero::before{background-size:min(82vw,1200px) auto;background-position:right center;filter:saturate(.96)}
-.hero::after{background:linear-gradient(90deg,#07131ffb 0%,#07131ff0 21%,#07131fc8 33%,#07131f38 53%,transparent 75%)}
-.hero-inner{left:5.4%;top:105px;padding:20px 29px 20px 0;max-width:405px}
-.hero-project{display:flex;align-items:center;gap:10px;font-size:11px;letter-spacing:.14em;color:#e2cbac;margin:-6px 0 23px}
-.hero-project-line{width:24px;height:1px;background:var(--gold);display:inline-block}
-.hollywood h2{font-size:clamp(42px,5vw,56px)}
-.work img{aspect-ratio:1.89;object-fit:contain;object-position:center;background:#111d2a}
-.work-wide{grid-column:1/-1;max-width:700px;margin:5px auto 0;width:100%}
-.work-wide img{aspect-ratio:2.2;max-height:340px;object-fit:contain}
-@media(max-width:700px){
- .identity-small{font-size:7px;letter-spacing:.08em}
- .hero{height:690px}
- .hero::before{background-size:100% auto;background-position:center 76px}
- .hero::after{background:linear-gradient(0deg,#06121f 9%,#06121ff5 34%,#06121f1a 68%,transparent 80%)}
- .hero-inner{left:24px;right:24px;top:auto;bottom:35px;padding:0}
- .hero-project{margin:-4px 0 18px}
- .hollywood h2{font-size:46px}
- .work img,.work-wide img{aspect-ratio:auto;max-height:none;object-fit:contain}
- .work-wide{max-width:none}
- .projects-note{font-size:8px;letter-spacing:.1em}
-}
-
-/* 22 October: approved hero art direction: stadium full-bleed, small name and translucent veil */
-.hero{height:500px;isolation:isolate;background:#07131f;}
-.hero::before{background-size:cover;background-position:center 52%;filter:none;}
-.hero::after{background:linear-gradient(90deg,rgba(3,12,22,.58) 0%,rgba(3,12,22,.12) 41%,transparent 67%);}
-.hero-inner{top:119px;left:4.9%;padding:27px 34px 24px 26px;max-width:340px;background:linear-gradient(112deg,rgba(4,15,29,.65),rgba(6,18,33,.36));border:1px solid rgba(238,216,190,.09);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);}
-.hero h1{font-size:clamp(43px,4.65vw,57px);line-height:.96;margin-bottom:19px;}
-.hero .role{font-size:10px;letter-spacing:.23em;}
-.hero .hero-company{font-size:19px;letter-spacing:.34em;margin-bottom:24px;}
-.hero-caption{position:absolute;right:3.2%;bottom:16px;padding:7px 13px;background:rgba(4,15,29,.24);font-size:10px;letter-spacing:.13em;color:rgba(239,238,235,.82);text-shadow:0 1px 6px #06121f;}
-.hero-caption span{color:#cda675;padding:0 4px;}
-@media(max-width:700px){
-.hero{height:660px;}
-.hero::before{background-size:cover;background-position:54% 36%;}
-.hero::after{background:linear-gradient(0deg,rgba(5,14,26,.85) 0%,rgba(5,14,26,.25) 61%,rgba(5,14,26,.10) 100%);}
-.hero-inner{bottom:58px;top:auto;left:17px;right:17px;max-width:350px;padding:21px 20px 20px;background:linear-gradient(115deg,rgba(4,15,29,.66),rgba(6,18,33,.38));}
-.hero h1{font-size:clamp(43px,10.8vw,54px);}
-.hero .hero-company{margin-bottom:20px;}
-.hero-caption{right:17px;bottom:12px;font-size:9px;padding:3px 0;background:none;}
-}
-/* Revised images, retain complete architecture */
-.hero::before{background-image:url('assets/vtb_new.webp');background-position:center 48%}
-.work img{aspect-ratio:1.88;object-fit:contain;background:#101c2a}
-.work-wide img{object-fit:contain}
-.actual a{text-decoration:underline;text-underline-offset:3px;color:#bfa783}
-@media(max-width:700px){.hero::before{background-image:url('assets/vtb_new.webp');background-position:center 27%}.work img{aspect-ratio:auto;max-height:none}}
-/* Stadium panoramic: keep full summer football field visible */
-.work:first-child img{aspect-ratio:2.38;object-fit:contain;object-position:center;background:#101c2a}
-@media(max-width:700px){.work:first-child img{aspect-ratio:2.38;max-height:none}}
-.unillustrated{aspect-ratio:1.88;background:radial-gradient(ellipse at 85% 20%,#1a3243,#0a1929 63%);border:1px solid #8d765840;display:flex;flex-direction:column;justify-content:flex-end;padding:24px 28px;position:relative;overflow:hidden}.unillustrated:before{content:'';position:absolute;right:-15%;top:-120%;height:220%;width:75%;border-radius:50%;border:1px solid #d4b07e38;transform:rotate(-26deg)}.unillustrated-label{font-size:10px;color:#c9a16d;letter-spacing:.24em;margin-bottom:20px}.unillustrated-title{font-size:clamp(30px,4vw,52px);position:relative}.unillustrated-note{font-size:12px;color:#b7bec7;margin-top:8px}@media(max-width:700px){.unillustrated{min-height:230px;aspect-ratio:auto;padding:22px}}
-
-/* Editorial hero preview: image-first composition, no floating card */
-.hero{height:clamp(560px,77vh,800px);min-height:560px;background:#07131f}
-.hero::before{background-image:url('assets/vtb_new.webp');background-size:cover;background-position:center 46%}
-.hero::after{background:linear-gradient(90deg,rgba(3,12,23,.83) 0%,rgba(3,12,23,.48) 31%,rgba(3,12,23,.08) 67%,transparent 100%),linear-gradient(0deg,rgba(3,12,23,.34),transparent 42%)}
-.hero-inner{left:5.2%;top:50%;transform:translateY(-42%);max-width:490px;padding:0;background:none;border:0;backdrop-filter:none;-webkit-backdrop-filter:none}
-.hero h1{font-size:clamp(64px,6.5vw,100px);line-height:.92;margin-bottom:25px;text-shadow:0 2px 18px rgba(0,0,0,.2)}
-.hero .role{font-size:11px;letter-spacing:.28em;margin-bottom:14px;color:#eee8e0}
-.hero .hero-company{font-size:17px;letter-spacing:.4em;margin-bottom:32px}
-.hero .actions{flex-direction:row;flex-wrap:wrap;gap:12px}
-.hero .btn{min-width:190px;min-height:45px;background:rgba(4,15,28,.38);color:#f6efe6;border:1px solid rgba(214,173,114,.8)}
-.hero .btn-gold{background:#c9a16d;color:#091725;border-color:#c9a16d}
-.hero-caption{right:4.5%;bottom:24px}
-@media(max-width:700px){.hero{height:700px;min-height:0}.hero::before{background-position:56% 22%}.hero::after{background:linear-gradient(0deg,rgba(3,12,23,.96) 0%,rgba(3,12,23,.72) 31%,rgba(3,12,23,.12) 77%)}.hero-inner{left:22px;right:22px;top:auto;bottom:75px;transform:none;max-width:none;padding:0;background:none;border:0;backdrop-filter:none;-webkit-backdrop-filter:none}.hero h1{font-size:clamp(56px,12vw,76px)}.hero .actions{flex-direction:column;align-items:stretch}.hero .btn{width:100%;min-width:0}.hero-caption{right:22px;bottom:18px}}
-
-/* 23 October: mobile-first portfolio hero, visible arena before identity */
-.hero .hero-caption{font-size:12px;letter-spacing:.08em;padding:10px 15px;background:rgba(5,16,29,.62);border-left:2px solid #c9a16d;right:4.5%;bottom:26px}
-.hero .hero-caption strong{font-weight:600;color:#fff}
-.hero h1{font-size:clamp(46px,4.5vw,68px);line-height:1.03}
-.hero-inner{max-width:430px}
-@media(max-width:700px){
- .hero{height:auto;min-height:0;padding:0;background:#07131f;display:flex;flex-direction:column;isolation:isolate}
- .hero::before{position:relative;inset:auto;z-index:auto;display:block;content:'';height:clamp(230px,72vw,360px);flex:none;background-image:url('assets/vtb_new.webp');background-repeat:no-repeat;background-position:center center;background-size:contain;background-color:#0a1725;filter:none}
- .hero::after{display:none}
- .hero-caption,.hero .hero-caption{position:relative;order:1;right:auto;bottom:auto;left:auto;display:block;align-self:stretch;margin:0;padding:14px 22px;background:#101e2d;border-left:0;border-top:1px solid rgba(201,161,109,.55);font-size:11px;line-height:1.5;letter-spacing:.08em}
- .hero-inner,.hero .hero-inner{position:relative;order:2;left:auto;right:auto;top:auto;bottom:auto;transform:none;max-width:none;margin:0;padding:27px 22px 32px;background:#07131f;border:0;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none}
- .hero h1{font-size:clamp(37px,9vw,46px);line-height:1.08;margin:0 0 14px;letter-spacing:-.02em;text-shadow:none}
- .hero .role{font-size:10px;letter-spacing:.18em;margin:0 0 9px}
- .hero .hero-company{font-size:15px;letter-spacing:.32em;margin:0 0 22px}
- .hero .actions{flex-direction:row;gap:10px;align-items:stretch}
- .hero .btn{min-width:0;width:auto;flex:1;padding:0 12px;font-size:11px;letter-spacing:0;min-height:44px}
- .hero .btn span:last-child{font-size:17px;margin-left:8px}
-}
-@media(max-width:360px){.hero .actions{flex-direction:column}.hero .btn{width:100%;flex:none}.hero h1{font-size:37px}}
-
-/* MARINA × LAITEC / evening-architecture art direction, October 2026 */
-:root{--navy:#06131f;--navy2:#0b1a2b;--gold:#d9ac74;--ivory:#f4ede5;--silver:#ccd1d8}
-body{background:#06111d;color:var(--ivory)}
-.site-header{height:76px;position:absolute;z-index:12;padding:0 5%;background:linear-gradient(90deg,rgba(4,13,25,.82),rgba(4,13,25,.62));border-bottom:1px solid rgba(226,180,119,.19);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
-.brand-lockup{display:flex;align-items:center;gap:14px;font:normal 24px/1 Georgia,'Times New Roman',serif;letter-spacing:.03em;color:#f8f0e9;white-space:nowrap}
-.brand-lockup em{font:normal 20px Georgia,serif;color:#dbaf7c}
-.brand-lockup span:last-child{color:#ecc294}
-.nav{gap:34px}.nav a{font-size:10px;color:#ede7e5;letter-spacing:.12em}.nav a:hover{color:#e9bd85}
-.header-contact{padding:10px 16px;font-size:12px;border:1px solid rgba(225,184,131,.8);color:#fff}
-.header-contact span{margin-left:8px;color:#eec38e}
-.hero{height:min(760px,100svh);min-height:590px;background:radial-gradient(ellipse at 48% 43%,#294364 0%,#152d49 34%,#071523 72%);overflow:hidden;isolation:isolate}
-.hero::before,.hero::after{display:none!important}
-.hero-atmosphere{position:absolute;inset:0;overflow:hidden;z-index:0;background:linear-gradient(180deg,rgba(6,15,31,.02) 8%,rgba(11,30,50,.12) 44%,rgba(2,10,20,.86) 100%),linear-gradient(110deg,rgba(3,12,25,.90) 0%,rgba(5,16,29,.50) 49%,transparent 76%),radial-gradient(ellipse at 76% 28%,rgba(225,148,112,.30),transparent 41%),linear-gradient(160deg,#1b3353 0%,#243953 41%,#101e30 66%,#070e19 100%)}
-.city-skyline{position:absolute;right:5%;left:30%;bottom:11%;height:43%;opacity:.8;background:linear-gradient(to top,rgba(237,151,90,.24),transparent 46%),repeating-linear-gradient(90deg,transparent 0 28px,rgba(255,199,117,.27) 29px 30px,transparent 31px 46px),linear-gradient(to top,rgba(2,11,22,.85) 0 42%,transparent 42% 100%);clip-path:polygon(0 64%,6% 64%,6% 49%,11% 49%,11% 73%,15% 73%,15% 35%,21% 35%,21% 57%,26% 57%,26% 23%,32% 23%,32% 60%,38% 60%,38% 43%,43% 43%,43% 8%,49% 8%,49% 50%,55% 50%,55% 29%,61% 29%,61% 67%,67% 67%,67% 14%,74% 14%,74% 50%,81% 50%,81% 31%,87% 31%,87% 64%,94% 64%,94% 45%,100% 45%,100% 100%,0 100%)}
-.glass-facade{position:absolute;right:-5%;top:0;bottom:0;width:42%;transform:skewX(-7deg);border-left:1px solid rgba(221,164,104,.65);background:repeating-linear-gradient(90deg,rgba(4,15,27,.24) 0 3px,transparent 3px 105px,rgba(225,174,117,.33) 106px 108px),repeating-linear-gradient(0deg,rgba(9,21,35,.17) 0 1px,transparent 1px 142px,rgba(232,171,111,.35) 143px 144px),linear-gradient(110deg,rgba(6,25,43,.34),rgba(255,173,97,.17) 61%,rgba(5,16,31,.25));box-shadow:inset 22px 0 50px rgba(8,14,25,.48),-10px 0 50px rgba(3,12,23,.23)}
-.glass-facade::after{content:'';position:absolute;top:21%;right:13%;height:2px;width:110%;transform:rotate(-13deg);background:linear-gradient(90deg,transparent,#ffdd9a,#e7a15b,transparent);box-shadow:0 0 15px #d89b62,0 0 45px rgba(238,153,90,.45)}
-.light-horizon{position:absolute;left:20%;right:0;bottom:12%;height:2px;background:linear-gradient(90deg,transparent,rgba(242,185,112,.52),rgba(255,220,154,.87),transparent);box-shadow:0 0 28px rgba(255,178,109,.55)}
-.hero-inner,.hero .hero-inner{position:absolute;z-index:2;left:7%;right:auto;top:49%;bottom:auto;transform:translateY(-45%);max-width:690px;padding:0;background:none;border:0;backdrop-filter:none;-webkit-backdrop-filter:none}
-.hero-kicker{font-size:10px;letter-spacing:.22em;color:#e6c4a3;margin-bottom:25px;display:flex;align-items:center;gap:13px}
-.hero-kicker span{display:inline-block;width:27px;height:1px;background:#dbad74}
-.hero h1,.hero .hero-inner h1{font-size:clamp(39px,4vw,60px);line-height:1.04;margin:0 0 11px;font-weight:400;letter-spacing:-.025em;white-space:nowrap;text-shadow:0 2px 16px rgba(0,0,0,.12)}
-.hero .role{font:normal clamp(18px,1.8vw,24px)/1.3 Georgia,serif;letter-spacing:.005em;color:#f1eae5;margin:0 0 19px;text-transform:none}
-.hero-specialty{font:normal 17px/1.55 Georgia,serif;color:#e5dee1;margin:0 0 27px;max-width:340px}
-.hero .actions{display:flex;flex-direction:row;align-items:stretch;gap:12px}
-.hero .btn{min-width:190px;min-height:44px;font-size:12px;padding:0 18px;letter-spacing:0;border-radius:2px}
-.hero .btn-gold{background:linear-gradient(100deg,#d3a26c,#efd0a2);color:#111923;border-color:#f1d1a1}
-.hero .btn-ghost{background:rgba(5,14,27,.55);color:#fff;border-color:rgba(230,189,139,.72)}
-.hero-bottom{position:absolute;bottom:0;left:0;right:0;z-index:3;min-height:74px;padding:20px 7%;display:flex;align-items:center;justify-content:space-between;gap:20px;background:rgba(4,14,27,.74);border-top:1px solid rgba(232,184,124,.27);font-size:10px;letter-spacing:.18em;color:#dfd4ca}
-.projects{padding:48px 5% 64px;background:linear-gradient(180deg,#071525,#050e18)}
-.projects-header{margin:0 0 24px}.projects-label{font:normal 29px Georgia,serif;letter-spacing:0;color:#f5ede6}
-.projects-label:after{display:none}.projects-note{font-size:10px;color:#c9ad92}
-.grid{gap:22px}
-.work{min-width:0}
-.work img{border-radius:4px;box-shadow:0 4px 22px rgba(0,0,0,.14)}
-.work h3{font-size:23px;margin:10px 0 5px}.work p{font-size:12px}
-.work-featured{grid-column:1/-1;position:relative;overflow:hidden;min-height:clamp(280px,37vw,520px);border:1px solid rgba(220,169,104,.47);border-radius:6px;background:#091929}
-.work-featured img{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto!important;object-fit:cover!important;object-position:center 45%;background:#0a1625;border-radius:0}
-.work-featured::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,10,22,.90),rgba(3,14,27,.53) 31%,transparent 73%),linear-gradient(0deg,rgba(3,12,25,.30),transparent 50%)}
-.featured-content{position:absolute;z-index:1;top:50%;transform:translateY(-50%);left:5%;max-width:330px}
-.featured-eyebrow{font-size:10px;letter-spacing:.18em;color:#e7b77c}
-.featured-content h3{font-size:clamp(43px,5vw,70px);margin:15px 0 12px;line-height:.95;color:#fff}
-.featured-content .featured-year{font:normal 20px Georgia,serif;color:#efbd83;margin:0 0 20px}
-.featured-content p:last-child{font-size:13px;line-height:1.6;color:#efebea}
-.hollywood{height:360px}.feature-copy{top:43px}.hollywood::after{background:linear-gradient(90deg,#071320e8,#071320b5 29%,transparent 73%)}
-.contact{border-top:1px solid rgba(210,164,110,.3)}
-@media(max-width:700px){
-.site-header{height:62px;padding:0 19px}.brand-lockup{font-size:19px;gap:9px}.brand-lockup em{font-size:16px}.header-contact{font-size:11px;padding:8px 10px}.nav{display:none}
-.hero{height:auto;min-height:660px;padding:0 0 70px;display:block}
-.hero-atmosphere{inset:0;bottom:0;background:linear-gradient(0deg,rgba(4,13,26,.97) 0%,rgba(4,13,26,.66) 42%,rgba(4,13,26,.08) 89%),radial-gradient(ellipse at 72% 20%,rgba(245,154,93,.27),transparent 40%),linear-gradient(145deg,#142d4d,#2b3a59 40%,#0b1829 85%)}
-.glass-facade{right:-27%;width:69%;opacity:.84}.city-skyline{left:5%;right:0;bottom:30%;height:32%;opacity:.68}.light-horizon{bottom:31%}
-.hero-inner,.hero .hero-inner{position:relative;top:auto;left:auto;right:auto;bottom:auto;transform:none;margin:0;max-width:none;padding:285px 22px 30px;z-index:2}
-.hero-kicker{font-size:8px;letter-spacing:.17em;margin-bottom:17px}
-.hero h1,.hero .hero-inner h1{font-size:clamp(32px,8.5vw,42px);line-height:1.1;white-space:normal;margin-bottom:10px;letter-spacing:-.03em}
-.hero .role{font:normal 17px/1.25 Georgia,serif;margin:0 0 16px}
-.hero-specialty{font-size:15px;line-height:1.42;margin:0 0 22px}
-.hero .actions{flex-direction:column;gap:10px}.hero .btn{width:100%;min-width:0;min-height:44px;font-size:13px}
-.hero-bottom{padding:16px 22px;min-height:62px;gap:10px;bottom:0;font-size:8px;letter-spacing:.04em}.hero-bottom span:nth-child(2){display:none}
-.projects{padding:34px 18px 45px}.projects-header{gap:8px}.projects-label{font-size:24px}.projects-note{font-size:8px;letter-spacing:.05em;max-width:130px}
-.grid{display:grid;grid-template-columns:1fr;gap:25px}
-.work-featured{grid-column:1;min-height:390px;display:flex;flex-direction:column;justify-content:flex-end}
-.work-featured img{position:relative;inset:auto;display:block;width:100%;height:auto;aspect-ratio:1.6!important;object-fit:contain!important}
-.work-featured::after{display:none}
-.featured-content{position:relative;left:auto;top:auto;transform:none;padding:18px 20px 23px;max-width:none;background:linear-gradient(110deg,#081726,#102237)}
-.featured-content h3{font-size:35px;margin:10px 0}.featured-content .featured-year{font-size:17px;margin-bottom:8px}.featured-content p:last-child{font-size:12px}
-}
-@media(max-width:360px){.brand-lockup{font-size:16px}.hero-inner,.hero .hero-inner{padding-top:260px}.hero-bottom span:last-child{display:none}}
-
-/* Art-directed hero photo: genuine evening architecture, not schematic CSS shapes */
-.hero-atmosphere{
- background-image:
- linear-gradient(90deg,rgba(4,12,25,.87) 0%,rgba(5,13,27,.69) 34%,rgba(5,13,27,.18) 72%,rgba(4,12,25,.12) 100%),
- linear-gradient(0deg,rgba(4,13,26,.72) 0%,transparent 38%),
- url('https://images.unsplash.com/photo-1772289767405-69513d023448?auto=format&fit=crop&w=2200&q=85');
- background-size:cover;
- background-position:center center;
- background-repeat:no-repeat;
-}
-.city-skyline,.glass-facade,.light-horizon{display:none!important}
-.hero{min-height:640px;height:min(780px,92svh)}
-.hero-inner,.hero .hero-inner{top:48%;transform:translateY(-40%);left:7%;max-width:620px}
-.hero h1,.hero .hero-inner h1{font-size:clamp(40px,4.15vw,59px)}
-.projects-jump{display:inline-block;padding:9px 0;color:#e6b97f;text-decoration:underline;text-underline-offset:6px;letter-spacing:.02em}
-.projects-header{align-items:center}
-.work-featured{min-height:420px}
-.featured-content{padding:17px 22px;border-left:2px solid rgba(217,172,116,.68);background:linear-gradient(90deg,rgba(4,14,29,.42),transparent)}
-.featured-content h3{font-size:clamp(42px,4.8vw,65px)}
-@media(max-width:700px){
- .hero{height:auto;min-height:690px}
- .hero-atmosphere{background-image:linear-gradient(0deg,rgba(5,13,27,.95) 0%,rgba(5,13,27,.75) 42%,rgba(5,13,27,.19) 78%,rgba(5,13,27,.11) 100%),url('https://images.unsplash.com/photo-1772289767405-69513d023448?auto=format&fit=crop&w=1000&q=85');background-size:cover;background-position:58% center}
- .hero-inner,.hero .hero-inner{top:auto;transform:none;left:auto;padding-top:285px}
- .hero h1,.hero .hero-inner h1{font-size:clamp(33px,8.1vw,41px)}
- .projects-jump{font-size:9px;text-align:right;text-decoration:none}
- .featured-content{padding:18px 18px 23px;border-left:0;background:linear-gradient(110deg,#081726,#102237)}
-}
-</style></head><body>
-<header class="site-header"><a class="brand-lockup" href="#top" aria-label="MARINA × LAITEC, на главную"><span>MARINA</span><em>×</em><span>LAITEC</span></a><nav class="nav" aria-label="Навигация"><a href="#projects">ПРОЕКТЫ</a><a href="#architecture">АРХИТЕКТУРА</a><a href="#contact">КОНТАКТЫ</a></nav><a class="header-contact" href="mailto:info@laitec.ru">Написать <span>↗</span></a></header>
-<main id="top"><section class="hero"><div class="hero-atmosphere" aria-hidden="true"><div class="city-skyline"></div><div class="glass-facade"></div><div class="light-horizon"></div></div><div class="hero-inner"><div class="hero-kicker"><span></span> СВЕТ СОЗДАЁТ ВОЗМОЖНОСТИ</div><h1 class="serif">Марина Малышева</h1><p class="role">Руководитель проектов LAITEC</p><p class="hero-specialty">Спортивное, архитектурное<br>и промышленное освещение</p><div class="actions"><a class="btn btn-gold" href="Marina_Malysheva_LAITEC.vcf" download><span>Сохранить контакт</span><span>↗</span></a><a class="btn btn-ghost" href="mailto:info@laitec.ru?subject=Марине%20Малышевой%20после%20Interlight"><span>Написать</span><span>↗</span></a></div></div><div class="hero-bottom"><span>ПРОЕКТЫ ПО ВСЕЙ РОССИИ</span><span>СВЕТОТЕХНИЧЕСКИЕ РЕШЕНИЯ</span><span>АРХИТЕКТУРНАЯ ЭСТЕТИКА</span></div></section>
-
-<section class="projects" id="projects"><div class="projects-header"><span class="projects-label">Реализованные проекты</span><a class="projects-note projects-jump" href="#all-projects">Смотреть все проекты ↗</a></div><div class="grid" id="all-projects">
-<article class="work work-featured"><img src="assets/vtb_new.webp" alt="ВТБ Арена, Москва — проект освещения" loading="eager"><div class="featured-content"><span class="featured-eyebrow">КЛЮЧЕВОЙ ПРОЕКТ / 2026</span><h3 class="serif">ВТБ Арена</h3><p class="featured-year">Проект 2026</p><p>Москва · спортивное освещение · система управления</p></div></article>
-<article class="work"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/2017_Confederation_Cup_-_CHIAUS_-_Spartak_Stadium_Panorama.jpg?width=1600" alt="ЛУКОЙЛ Арена — летняя панорама стадиона и игрового поля" loading="lazy"><div class="caption-row"><div><h3 class="serif">ЛУКОЙЛ Арена</h3><p>Москва · проект · поставка · юстировка</p></div><span class="decor-arrow">— →</span></div></article>
-<article class="work"><img src="assets/sokolniki.webp" alt="Спартак Сокольники, проект освещения"><div class="caption-row"><div><h3 class="serif">Спартак Сокольники</h3><p>Москва · проектирование спортивных площадок и манежей</p></div><span class="decor-arrow">— →</span></div></article>
-<article class="work"><img src="assets/gazprom_staircase.webp" alt="Газпром Арена — парадная лестница и исторические павильоны" loading="lazy"><div class="caption-row"><div><h3 class="serif">Газпром Арена · историческая лестница</h3><p>Санкт-Петербург · концепция · светодизайн · светотехнический проект</p></div></div></article>
-<article class="work"><img src="assets/ozon_grounds.webp" alt="Ozon Арена, Краснодар — освещение прилегающей территории" loading="lazy"><div class="caption-row"><div><h3 class="serif">Ozon Арена · территория</h3><p>Краснодар · поставка светильников наружного освещения</p></div></div></article>
-<article class="work"><img src="assets/luzhniki_approved.webp" alt="ДС Лужники — выбранная визуализация архитектурного освещения, детали фасада и подсвеченные ниши"><div class="caption-row"><div><h3 class="serif">ДС «Лужники»</h3><p>Москва · архитектурное освещение · проектный кейс</p></div><span class="decor-arrow">— →</span></div></article>
-<article class="work"><img src="assets/ekaterininsky.webp" alt="Екатерининский институт, визуализация архитектурного освещения"><div class="caption-row"><div><h3 class="serif">Екатерининский институт</h3><p>Санкт-Петербург · концепция · светотехнический проект</p></div><span class="decor-arrow">— →</span></div></article>
-<article class="work work-wide"><img src="assets/ushakov.webp" alt="Собор Феодора Ушакова — архитектурное освещение"><div class="caption-row"><div><h3 class="serif">Собор Феодора Ушакова</h3><p>Саранск · архитектурное освещение · проект и реализация</p></div></div></article>
-</div><p class="actual">Фотографии объектов и визуализации проектных решений · ЛУКОЙЛ Арена: <a href="https://commons.wikimedia.org/wiki/File:2017_Confederation_Cup_-_CHIAUS_-_Spartak_Stadium_Panorama.jpg">фото Voltmetro / Oleg Bkhambri</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> (панорама без обрезки)</p></section>
-<section class="hollywood" id="architecture"><div class="feature-copy"><div class="idx">01</div><h2 class="serif">ТРК<br>«Голливуд»</h2><p class="feature-intro">Санкт-Петербург ·<br>архитектурно-художественное<br>освещение</p><div class="feature-rule"></div><div class="feature-scope">Светотехнический проект ·<br>поставка · пусконаладка</div></div></section>
-<section class="contact" id="contact"><div><h2 class="serif">Марина<br>Малышева</h2><div class="contact-sub">Руководитель проектов<br>ООО «Лайтек»</div></div><div class="contact-items"><div><span>♧</span><a href="tel:+79234313517">+7 923 431 35 17</a></div><div><span>✉</span><a href="mailto:info@laitec.ru">info@laitec.ru</a></div><div><span>◎</span><a href="https://laitec.ru">laitec.ru</a></div></div><a class="btn btn-gold" href="Marina_Malysheva_LAITEC.vcf" download><span>Сохранить контакт</span><span>→</span></a></section></main>
-<footer class="footer"><span class="wordmark">LAITEC</span><span class="footertext">ОСВЕЩЕНИЕ · ПРОЕКТИРОВАНИЕ · РЕАЛИЗАЦИЯ</span><span class="event">INTERLIGHT<br>MOSCOW</span></footer>
-</body></html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#071523">
+  <meta name="description" content="Марина Малышева, руководитель проектов LAITEC. Спортивное, архитектурное и промышленное освещение. Проекты и контакты.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Марина Малышева × LAITEC — портфолио проектов">
+  <meta property="og:description" content="Спортивное, архитектурное и промышленное освещение. Проекты по всей России.">
+  <title>Марина Малышева × LAITEC — Портфолио</title>
+  <link rel="preload" as="image" href="assets/marina_twilight_architecture.webp" fetchpriority="high">
+  <style>
+    :root{--night:#06111e;--midnight:#071523;--slate:#0c2032;--warm:#e9be87;--gold:#d9a36b;--cream:#f3eee9;--muted:#b8c4cc;--line:rgba(229,183,127,.36);--serif:Georgia,'Times New Roman',serif;--sans:'Segoe UI',Arial,sans-serif}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:84px}
+    body{margin:0;background:var(--night);color:var(--cream);font-family:var(--sans);-webkit-font-smoothing:antialiased}
+    a{color:inherit;text-decoration:none}
+    button{font:inherit}
+    img{display:block;width:100%;max-width:100%}
+    a:focus-visible,button:focus-visible{outline:2px solid var(--warm);outline-offset:4px}
+    .serif{font-family:var(--serif);font-weight:400;letter-spacing:-.025em}
+    .site-frame{width:min(100%,1600px);margin:0 auto;background:#07131f;box-shadow:0 24px 100px rgba(0,0,0,.3);overflow:hidden}
+    .site-header{height:82px;position:absolute;z-index:20;left:0;right:0;top:0;max-width:1600px;margin:auto;padding:0 6.3%;display:flex;align-items:center;justify-content:space-between;gap:28px;background:linear-gradient(100deg,rgba(3,12,25,.86),rgba(3,12,25,.67));border-bottom:1px solid rgba(234,192,139,.24);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+    .brand{display:flex;align-items:baseline;gap:14px;white-space:nowrap;font:normal 28px/1 var(--serif);letter-spacing:.025em;color:#f5eee7}
+    .brand .cross{color:var(--warm);font-size:21px}.brand .company{color:#e7b477}
+    .main-nav{display:flex;align-items:center;gap:27px;margin-left:auto}
+    .main-nav a{font-size:11px;color:#f2ece6;transition:color .2s}.main-nav a:hover{color:var(--warm)}
+    .header-contact{display:flex;align-items:center;gap:8px;font-size:11px;white-space:nowrap;border:1px solid rgba(226,178,115,.65);padding:10px 16px;transition:background .2s}
+    .header-contact:hover{background:rgba(227,183,121,.17)}
+    .mobile-nav-toggle{display:none;border:0;background:transparent;color:var(--cream);width:38px;height:38px;padding:9px;cursor:pointer}
+    .mobile-nav-toggle i{display:block;height:1px;margin:6px 0;background:#f7eee8}
+    .hero{position:relative;min-height:610px;background:var(--midnight);isolation:isolate}
+    .hero-visual{position:absolute;inset:0;background-image:linear-gradient(90deg,rgba(4,13,25,.89) 0%,rgba(5,16,29,.74) 26%,rgba(5,15,27,.31) 53%,rgba(4,13,25,.03) 92%),linear-gradient(0deg,rgba(4,11,22,.45),transparent 34%),url('assets/marina_twilight_architecture.webp');background-size:cover;background-position:center 47%;z-index:-1}
+    .hero-content{padding:175px 6.3% 55px;max-width:700px;min-height:528px}
+    .eyebrow{display:flex;align-items:center;gap:12px;color:#e9c09b;font-size:10px;line-height:1.4;letter-spacing:.22em;text-transform:uppercase}
+    .eyebrow:before{content:"";display:block;width:24px;height:1px;background:#e7af76;flex:none}
+    .hero h1{margin:20px 0 10px;font:normal clamp(42px,4.15vw,65px)/1.1 var(--serif);letter-spacing:-.025em;white-space:nowrap;text-shadow:0 2px 16px rgba(0,0,0,.25)}
+    .role{margin:0 0 18px;font:normal clamp(17px,1.85vw,24px)/1.3 var(--serif)}
+    .specialization{font:normal clamp(15px,1.35vw,18px)/1.5 var(--serif);margin:0 0 27px;color:#ebe4e0;max-width:400px}
+    .actions{display:flex;align-items:stretch;gap:13px}
+    .action{min-height:45px;min-width:184px;display:inline-flex;align-items:center;justify-content:center;gap:13px;padding:11px 17px;border-radius:3px;font-size:12px;transition:transform .2s ease,background .2s ease}
+    .action:hover{transform:translateY(-2px)}
+    .action-primary{background:linear-gradient(110deg,#d6a471,#f1d1a0);color:#131922;border:1px solid #e4b980}
+    .action-secondary{background:rgba(2,12,24,.58);border:1px solid rgba(225,178,112,.85);color:#f6eee8}
+    .action svg{width:15px;height:15px;flex:none}
+    .value-strip{display:grid;grid-template-columns:repeat(4,1fr);background:rgba(3,12,24,.86);border-top:1px solid rgba(225,173,106,.26);min-height:82px;padding:0 4.4%}
+    .value-item{display:flex;align-items:center;justify-content:center;min-width:0;position:relative;gap:14px;padding:14px 17px;color:#e6e0df;font-size:10px;line-height:1.55;letter-spacing:.12em;text-transform:uppercase}
+    .value-item:not(:last-child):after{content:"";height:36px;width:1px;background:rgba(226,182,127,.35);position:absolute;right:0;top:calc(50% - 18px)}
+    .value-item svg{width:23px;height:23px;stroke:var(--warm);stroke-width:1.3;fill:none;flex:none}
+    .portfolio{padding:38px 5.8% 62px;background:linear-gradient(180deg,#071421 0%,#050d18 100%)}
+    .section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:23px}
+    .section-kicker{color:var(--warm);font-size:10px;letter-spacing:.2em;text-transform:uppercase;margin:0 0 7px}
+    .section-title{font:normal clamp(28px,3vw,43px)/1.14 var(--serif);letter-spacing:-.027em;margin:0}
+    .section-head-text{padding-left:16px;border-left:2px solid var(--gold)}
+    .section-link{font-size:12px;color:#e8b777;text-decoration:underline;text-underline-offset:7px;white-space:nowrap;margin-bottom:8px}
+    .project-feature{position:relative;min-height:355px;overflow:hidden;border:1px solid rgba(213,168,109,.46);border-radius:9px;background:#11283c;isolation:isolate}
+    .project-feature img{position:absolute;inset:0;height:100%;object-fit:cover;object-position:center 52%;z-index:-2}
+    .project-feature:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,12,23,.95) 0%,rgba(3,12,23,.73) 29%,rgba(3,12,23,.1) 68%,rgba(3,12,23,.04) 100%),linear-gradient(0deg,rgba(2,10,18,.26),transparent 45%);z-index:-1}
+    .project-feature-copy{padding:50px 4.1%;max-width:425px;display:flex;flex-direction:column;align-items:start;min-height:355px;justify-content:center}
+    .project-number{font-size:10px;color:#eab982;letter-spacing:.2em;text-transform:uppercase;margin:0 0 12px}
+    .project-feature h3{font:normal clamp(44px,5vw,76px)/1.03 var(--serif);letter-spacing:-.035em;margin:0 0 10px}
+    .project-year{font:normal 23px/1.2 var(--serif);color:#f0bd80;margin:0 0 18px}
+    .project-feature-copy .project-desc{font-size:14px;line-height:1.58;color:#f0ece9;margin:0 0 20px}
+    .circle-link{width:39px;height:39px;border-radius:50%;border:1px solid #dfb579;display:flex;align-items:center;justify-content:center;font-size:20px;background:rgba(3,14,27,.47);flex:none;transition:background .2s}
+    .circle-link:hover{background:rgba(215,166,105,.22)}
+    .project-feature-copy .project-detail-trigger{display:flex;align-items:center;gap:13px;background:none;border:0;padding:0;color:#e7e2dc;cursor:pointer;font-size:12px;text-align:left}
+    .project-detail-trigger .circle-link{pointer-events:none}
+    .topic-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:15px}
+    .topic-card{position:relative;height:204px;overflow:hidden;border:1px solid rgba(220,176,121,.31);border-radius:8px;background:#182a39;isolation:isolate}
+    .topic-card img{position:absolute;inset:0;height:100%;object-fit:cover;z-index:-2;transition:transform .5s ease}
+    .topic-card:hover img{transform:scale(1.06)}
+    .topic-card:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,rgba(1,8,17,.97) 0%,rgba(2,11,22,.55) 42%,transparent 90%)}
+    .topic-meta{position:absolute;bottom:17px;left:18px;right:14px;display:flex;align-items:end;justify-content:space-between;gap:9px}
+    .topic-title{font:normal 19px/1.18 var(--serif);margin:0 0 5px}
+    .topic-caption{font-size:10px;color:#bbc4c9;line-height:1.4;margin:0}
+    .topic-meta .circle-link{width:34px;height:34px;font-size:18px}
+    .more-projects{padding:38px 0 0}
+    .subhead{font:normal 29px var(--serif);margin:0 0 19px}
+    .works-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+    .work{min-width:0;border:1px solid rgba(216,167,110,.2);border-radius:7px;overflow:hidden;background:#0b1c2d}
+    .work-media{aspect-ratio:1.55;overflow:hidden;background:#112438}
+    .work-media img{height:100%;object-fit:contain;transition:transform .3s}
+    .work:hover img{transform:scale(1.02)}
+    .work-copy{padding:17px 17px 21px}
+    .work h3{font:normal 23px/1.15 var(--serif);margin:0 0 7px}
+    .work p{margin:0;color:#bfc7ce;font-size:12px;line-height:1.55}
+    .work-tag{font-size:9px;color:var(--warm);letter-spacing:.11em;text-transform:uppercase;display:block;margin:0 0 9px}
+    .project-note{font-size:10px;line-height:1.6;color:#aeb7c1;margin:21px 0 0}
+    .project-note a{color:#dfbd91;text-decoration:underline}
+    .contact{background:linear-gradient(110deg,#0b1c2b,#13263a 65%,#091522);border-top:1px solid rgba(222,174,111,.4);padding:46px 6% 49px;display:grid;grid-template-columns:1fr 1fr auto;align-items:center;gap:25px}
+    .contact h2{font:normal 42px/1.03 var(--serif);margin:0 0 10px}
+    .contact small{font-size:13px;color:#d4d9de;line-height:1.6}
+    .contact-links{display:flex;flex-direction:column;gap:12px;font-size:14px;line-height:1.5}
+    .contact-links a:hover{color:var(--warm)}
+    .contact .action{min-width:205px}
+    .footer{border-top:1px solid rgba(219,178,120,.2);background:#040c16;min-height:78px;padding:20px 6%;display:flex;justify-content:space-between;align-items:center;gap:20px}
+    .footer-brand{font:normal 22px var(--serif);color:#e6b782}
+    .footer-note{font-size:10px;letter-spacing:.14em;color:#9da7b1;text-align:right}
+    dialog{width:min(540px,calc(100% - 28px));border:1px solid #a78a63;border-radius:10px;background:#0b1a2b;color:var(--cream);padding:30px;box-shadow:0 20px 80px #000b}
+    dialog::backdrop{background:rgba(2,7,15,.83)}
+    dialog h2{font:normal 35px var(--serif);margin:0 0 10px}
+    dialog p{font-size:14px;line-height:1.7;color:#d2d5d9}
+    .modal-close{position:absolute;right:15px;top:13px;border:1px solid var(--line);background:none;color:#fff;border-radius:50%;height:33px;width:33px;cursor:pointer}
+    @media(max-width:1050px){.brand{font-size:24px;gap:9px}.main-nav{gap:15px}.site-header{padding-inline:4.5%}.hero-content{padding-left:6%}.value-item{font-size:9px;padding-inline:8px}.value-item svg{width:19px}.portfolio{padding-inline:4.5%}}
+    @media(max-width:760px){
+      html{scroll-padding-top:65px}.site-frame{border:0}
+      .site-header{height:64px;padding:0 19px;position:absolute;gap:12px}
+      .brand{font-size:20px;gap:9px}.brand .cross{font-size:15px}
+      .header-contact{display:none}
+      .mobile-nav-toggle{display:block;margin-left:auto}
+      .main-nav{display:none;position:absolute;top:64px;left:0;right:0;padding:16px 20px 20px;background:rgba(5,15,29,.97);border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:0;box-shadow:0 15px 25px #0005}
+      .main-nav.is-open{display:flex}.main-nav a{padding:12px 2px;font-size:13px}
+      .hero{min-height:0}
+      .hero-visual{background-image:linear-gradient(0deg,#061321 0%,rgba(6,18,33,.95) 11%,rgba(6,18,33,.72) 36%,rgba(6,18,33,.18) 68%,rgba(6,18,33,.08) 100%),url('assets/marina_twilight_architecture.webp');background-position:53% top;background-size:cover}
+      .hero-content{min-height:595px;padding:287px 23px 29px;display:flex;flex-direction:column;justify-content:flex-end;max-width:none}
+      .eyebrow{font-size:9px;letter-spacing:.16em;gap:10px}.eyebrow:before{width:22px}
+      .hero h1{font-size:clamp(32px,8vw,42px);line-height:1.13;margin:16px 0 8px;white-space:normal}
+      .role{font-size:17px;margin-bottom:13px}
+      .specialization{font-size:15px;line-height:1.37;margin-bottom:20px}
+      .actions{flex-direction:column;gap:10px}.action{width:100%;min-height:44px;font-size:12px;justify-content:center}
+      .value-strip{grid-template-columns:repeat(3,minmax(0,1fr));padding:0 8px;min-height:96px}
+      .value-item{flex-direction:column;gap:7px;text-align:center;padding:13px 5px 11px;font-size:8px;letter-spacing:0;line-height:1.2}
+      .value-item svg{width:23px;height:23px}.value-item:not(:last-child):after{height:43px;top:calc(50% - 21px)}.value-item:nth-child(4){display:none}
+      .portfolio{padding:32px 17px 43px}.section-head{margin-bottom:18px;align-items:end;gap:10px}
+      .section-head-text{padding-left:11px}.section-kicker{font-size:9px;margin-bottom:5px}.section-title{font-size:28px;line-height:1.07}.section-link{font-size:9px;margin-bottom:4px;white-space:nowrap}
+      .project-feature{min-height:0;display:flex;flex-direction:column}
+      .project-feature img{position:relative;inset:auto;height:auto;aspect-ratio:1.65;object-fit:cover;object-position:center;z-index:auto}
+      .project-feature:after{display:none}
+      .project-feature-copy{padding:16px 19px 20px;background:linear-gradient(110deg,#0a1b2d,#0e2234);min-height:0;max-width:none}
+      .project-number{font-size:9px;margin-bottom:7px}.project-feature h3{font-size:36px;margin-bottom:5px}.project-year{font-size:18px;margin-bottom:8px}.project-feature-copy .project-desc{font-size:12px;line-height:1.5;margin-bottom:15px}
+      .project-feature-copy .project-detail-trigger{font-size:11px}
+      .topic-grid{grid-template-columns:1fr;gap:10px;margin-top:11px}
+      .topic-card{height:98px}.topic-meta{bottom:10px;left:120px;right:11px}.topic-title{font-size:18px}.topic-caption{font-size:9px}
+      .topic-card img{width:118px;height:100%;object-fit:cover;inset:0 auto 0 0;z-index:1}
+      .topic-card:after{background:linear-gradient(90deg,transparent 0 110px,rgba(4,14,28,.95) 120px,#061524 100%);z-index:0}
+      .topic-meta{z-index:2}.topic-meta .circle-link{width:30px;height:30px}
+      .more-projects{padding-top:31px}.subhead{font-size:27px}
+      .works-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.work-media{aspect-ratio:1.24}.work-copy{padding:12px}.work h3{font-size:18px}.work p{font-size:10px}.work-tag{font-size:8px}
+      .contact{grid-template-columns:1fr;gap:20px;padding:36px 22px}.contact h2{font-size:39px}.contact-links{gap:10px}.contact .action{width:100%}
+      .footer{padding:20px 22px}.footer-brand{font-size:19px}.footer-note{font-size:8px}
+    }
+    @media(max-width:400px){.site-header{padding-inline:16px}.brand{font-size:18px;gap:7px}.hero-content{padding-top:260px;min-height:568px}.hero h1{font-size:33px}.section-title{font-size:25px}.topic-meta{left:115px}.topic-card img{width:112px}.works-grid{grid-template-columns:1fr}.work-media{aspect-ratio:1.9}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.action,.topic-card img,.work img{transition:none}}
+  </style>
+</head>
+<body>
+<div class="site-frame" id="top">
+<header class="site-header">
+  <a class="brand" href="#top" aria-label="Марина Малышева, LAITEC, главная"><span>MARINA</span><span class="cross">×</span><span class="company">LAITEC</span></a>
+  <nav class="main-nav" id="main-nav" aria-label="Основная навигация">
+    <a href="#about">Обо мне</a><a href="#projects">Проекты</a><a href="#expertise">Экспертиза</a><a href="#contact">Контакты</a>
+  </nav>
+  <a class="header-contact" href="mailto:info@laitec.ru?subject=Марине%20Малышевой">Написать <span aria-hidden="true">↗</span></a>
+  <button class="mobile-nav-toggle" id="menu-toggle" type="button" aria-label="Открыть меню" aria-controls="main-nav" aria-expanded="false"><i></i><i></i><i></i></button>
+</header>
+<main>
+  <section class="hero" id="about" aria-labelledby="hero-title">
+    <div class="hero-visual" aria-hidden="true"></div>
+    <div class="hero-content">
+      <div class="eyebrow">Свет создаёт возможности</div>
+      <h1 id="hero-title">Марина Малышева</h1>
+      <p class="role">Руководитель проектов LAITEC</p>
+      <p class="specialization">Спортивное, архитектурное<br>и промышленное освещение</p>
+      <div class="actions">
+        <a class="action action-primary" href="Marina_Malysheva_LAITEC.vcf" download>
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v3h16v-3"/></svg>
+          Сохранить контакт</a>
+        <a class="action action-secondary" href="mailto:info@laitec.ru?subject=Марине%20Малышевой">
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m22 2-7 20-4.4-8.6L2 9l20-7Zm-11.4 11.4L22 2"/></svg>
+          Написать</a>
+      </div>
+    </div>
+    <div class="value-strip" id="expertise">
+      <div class="value-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21V6l8-3v18M11 9l10-3v15M6 9h2M6 12h2M6 15h2M14 11h2M14 14h2M18 11h1M18 14h1M2 21h20"/></svg><span>Проекты<br>по всей России</span></div>
+      <div class="value-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v3M12 19v3M4.9 4.9 7 7M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1 7 17M17 7l2.1-2.1M12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"/></svg><span>Технологии<br>и команда</span></div>
+      <div class="value-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20V8l9-5 9 5v12H3ZM8 20V9l4-2 4 2v11M3 13h18"/></svg><span>Архитектурная<br>эстетика</span></div>
+      <div class="value-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.8 6 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.9l6.2-.9L12 3Z"/></svg><span>Результаты,<br>которые вдохновляют</span></div>
+    </div>
+  </section>
+  <section class="portfolio" id="projects" aria-labelledby="portfolio-heading">
+    <div class="section-head">
+      <div class="section-head-text"><div class="section-kicker">Проекты</div><h2 class="section-title" id="portfolio-heading">Реализованные проекты</h2></div>
+      <a class="section-link" href="#more-projects">Смотреть все проекты <span aria-hidden="true">↗</span></a>
+    </div>
+    <article class="project-feature" id="vtb-arena">
+      <img src="assets/vtb_new.webp" alt="ВТБ Арена в Москве: вид на спортивный комплекс" loading="eager">
+      <div class="project-feature-copy">
+        <div class="project-number">01 / Ключевой проект</div>
+        <h3>ВТБ Арена</h3>
+        <p class="project-year">Проект 2026</p>
+        <p class="project-desc">Москва · спортивное освещение и системы управления</p>
+        <button class="project-detail-trigger" type="button" id="open-vtb"><span class="circle-link" aria-hidden="true">→</span><span>Подробнее о проекте</span></button>
+      </div>
+    </article>
+    <div class="topic-grid" aria-label="Направления проектов">
+      <a class="topic-card" href="#hollywood"><img src="assets/hollywood.webp" alt="Архитектурное освещение ТРК Голливуд" loading="lazy"><div class="topic-meta"><div><h3 class="topic-title">Городская среда</h3><p class="topic-caption">Архитектурное освещение</p></div><span class="circle-link" aria-hidden="true">→</span></div></a>
+      <a class="topic-card" href="#gazprom"><img src="assets/gazprom_staircase.webp" alt="Световая концепция исторической лестницы" loading="lazy"><div class="topic-meta"><div><h3 class="topic-title">Архитектура и свет</h3><p class="topic-caption">Концепции и проекты</p></div><span class="circle-link" aria-hidden="true">→</span></div></a>
+      <a class="topic-card" href="#lukoil"><img src="assets/lukoil.webp" alt="Спортивное освещение стадиона" loading="lazy"><div class="topic-meta"><div><h3 class="topic-title">Спортивные объекты</h3><p class="topic-caption">Современные световые решения</p></div><span class="circle-link" aria-hidden="true">→</span></div></a>
+    </div>
+    <div class="more-projects" id="more-projects">
+      <h2 class="subhead">Другие проекты</h2>
+      <div class="works-grid">
+        <article class="work" id="hollywood"><div class="work-media"><img src="assets/hollywood.webp" alt="ТРК Голливуд, Санкт-Петербург" loading="lazy"></div><div class="work-copy"><span class="work-tag">Архитектурное освещение</span><h3>ТРК «Голливуд»</h3><p>Санкт-Петербург · светотехнический проект, поставка, пусконаладка</p></div></article>
+        <article class="work" id="lukoil"><div class="work-media"><img src="assets/lukoil.webp" alt="ЛУКОЙЛ Арена, Москва" loading="lazy"></div><div class="work-copy"><span class="work-tag">Спортивное освещение</span><h3>ЛУКОЙЛ Арена</h3><p>Москва · проект, поставка, юстировка</p></div></article>
+        <article class="work" id="sokolniki"><div class="work-media"><img src="assets/sokolniki.webp" alt="Спортивный объект Спартак Сокольники" loading="lazy"></div><div class="work-copy"><span class="work-tag">Спортивное освещение</span><h3>Спартак Сокольники</h3><p>Москва · спортивные площадки и манежи</p></div></article>
+        <article class="work" id="gazprom"><div class="work-media"><img src="assets/gazprom_staircase.webp" alt="Историческая лестница Газпром Арены" loading="lazy"></div><div class="work-copy"><span class="work-tag">Светодизайн</span><h3>Газпром Арена · лестница</h3><p>Санкт-Петербург · концепция и светотехнический проект</p></div></article>
+        <article class="work" id="ozon"><div class="work-media"><img src="assets/ozon_grounds.webp" alt="Ozon Арена, территория" loading="lazy"></div><div class="work-copy"><span class="work-tag">Наружное освещение</span><h3>Ozon Арена · территория</h3><p>Краснодар · поставка светильников наружного освещения</p></div></article>
+        <article class="work" id="luzhniki"><div class="work-media"><img src="assets/luzhniki_approved.webp" alt="Архитектурное освещение ДС Лужники" loading="lazy"></div><div class="work-copy"><span class="work-tag">Архитектурный проект</span><h3>ДС «Лужники»</h3><p>Москва · архитектурное освещение, проектный кейс</p></div></article>
+        <article class="work" id="ekaterininsky"><div class="work-media"><img src="assets/ekaterininsky.webp" alt="Екатерининский институт, визуализация" loading="lazy"></div><div class="work-copy"><span class="work-tag">Световая концепция</span><h3>Екатерининский институт</h3><p>Санкт-Петербург · концепция, светотехнический проект</p></div></article>
+        <article class="work" id="ushakov"><div class="work-media"><img src="assets/ushakov.webp" alt="Собор Феодора Ушакова в Саранске" loading="lazy"></div><div class="work-copy"><span class="work-tag">Архитектурное освещение</span><h3>Собор Феодора Ушакова</h3><p>Саранск · проект и реализация</p></div></article>
+      </div>
+    </div>
+    <p class="project-note">В портфолио представлены фотографии объектов и визуализации светотехнических решений.</p>
+  </section>
+  <section class="contact" id="contact" aria-labelledby="contact-title">
+    <div><h2 id="contact-title">Марина<br>Малышева</h2><small>Руководитель проектов<br>ООО «Лайтек»</small></div>
+    <div class="contact-links"><a href="tel:+79234313517">+7 923 431 35 17</a><a href="mailto:info@laitec.ru">info@laitec.ru</a><a href="https://laitec.ru" target="_blank" rel="noopener">laitec.ru ↗</a></div>
+    <a class="action action-primary" href="Marina_Malysheva_LAITEC.vcf" download>Сохранить контакт <span aria-hidden="true">↗</span></a>
+  </section>
+</main>
+<footer class="footer"><span class="footer-brand">LAITEC</span><span class="footer-note">MARINA × LAITEC · ПРОЕКТЫ И СВЕТ · 2026</span></footer>
+</div>
+<dialog id="vtb-dialog" aria-labelledby="vtb-dialog-heading">
+  <button class="modal-close" type="button" aria-label="Закрыть окно" id="close-vtb">×</button>
+  <div class="section-kicker">Ключевой проект · 2026</div>
+  <h2 id="vtb-dialog-heading">ВТБ Арена</h2>
+  <p>Москва. Светотехнические решения для спортивного комплекса, включая систему управления освещением. Для обсуждения проекта и других реализованных объектов свяжитесь с Мариной Малышевой.</p>
+  <a class="action action-primary" href="mailto:info@laitec.ru?subject=ВТБ%20Арена%20—%20вопрос%20по%20проекту">Обсудить проект ↗</a>
+</dialog>
+<script>
+  (()=>{
+    const menu=document.querySelector('#main-nav');
+    const toggle=document.querySelector('#menu-toggle');
+    toggle.addEventListener('click',()=>{const on=menu.classList.toggle('is-open');toggle.setAttribute('aria-expanded',String(on));toggle.setAttribute('aria-label',on?'Закрыть меню':'Открыть меню')});
+    menu.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{menu.classList.remove('is-open');toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Открыть меню')}));
+    const dialog=document.querySelector('#vtb-dialog');
+    document.querySelector('#open-vtb').addEventListener('click',()=>dialog.showModal());
+    document.querySelector('#close-vtb').addEventListener('click',()=>dialog.close());
+    dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
+  })();
+</script>
+</body>
+</html>
