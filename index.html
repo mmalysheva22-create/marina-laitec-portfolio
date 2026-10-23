@@ -165,12 +165,40 @@ body{background:#06111d;color:var(--ivory)}
 .featured-content h3{font-size:35px;margin:10px 0}.featured-content .featured-year{font-size:17px;margin-bottom:8px}.featured-content p:last-child{font-size:12px}
 }
 @media(max-width:360px){.brand-lockup{font-size:16px}.hero-inner,.hero .hero-inner{padding-top:260px}.hero-bottom span:last-child{display:none}}
+
+/* Art-directed hero photo: genuine evening architecture, not schematic CSS shapes */
+.hero-atmosphere{
+ background-image:
+ linear-gradient(90deg,rgba(4,12,25,.87) 0%,rgba(5,13,27,.69) 34%,rgba(5,13,27,.18) 72%,rgba(4,12,25,.12) 100%),
+ linear-gradient(0deg,rgba(4,13,26,.72) 0%,transparent 38%),
+ url('https://images.unsplash.com/photo-1772289767405-69513d023448?auto=format&fit=crop&w=2200&q=85');
+ background-size:cover;
+ background-position:center center;
+ background-repeat:no-repeat;
+}
+.city-skyline,.glass-facade,.light-horizon{display:none!important}
+.hero{min-height:640px;height:min(780px,92svh)}
+.hero-inner,.hero .hero-inner{top:48%;transform:translateY(-40%);left:7%;max-width:620px}
+.hero h1,.hero .hero-inner h1{font-size:clamp(40px,4.15vw,59px)}
+.projects-jump{display:inline-block;padding:9px 0;color:#e6b97f;text-decoration:underline;text-underline-offset:6px;letter-spacing:.02em}
+.projects-header{align-items:center}
+.work-featured{min-height:420px}
+.featured-content{padding:17px 22px;border-left:2px solid rgba(217,172,116,.68);background:linear-gradient(90deg,rgba(4,14,29,.42),transparent)}
+.featured-content h3{font-size:clamp(42px,4.8vw,65px)}
+@media(max-width:700px){
+ .hero{height:auto;min-height:690px}
+ .hero-atmosphere{background-image:linear-gradient(0deg,rgba(5,13,27,.95) 0%,rgba(5,13,27,.75) 42%,rgba(5,13,27,.19) 78%,rgba(5,13,27,.11) 100%),url('https://images.unsplash.com/photo-1772289767405-69513d023448?auto=format&fit=crop&w=1000&q=85');background-size:cover;background-position:58% center}
+ .hero-inner,.hero .hero-inner{top:auto;transform:none;left:auto;padding-top:285px}
+ .hero h1,.hero .hero-inner h1{font-size:clamp(33px,8.1vw,41px)}
+ .projects-jump{font-size:9px;text-align:right;text-decoration:none}
+ .featured-content{padding:18px 18px 23px;border-left:0;background:linear-gradient(110deg,#081726,#102237)}
+}
 </style></head><body>
 <header class="site-header"><a class="brand-lockup" href="#top" aria-label="MARINA × LAITEC, на главную"><span>MARINA</span><em>×</em><span>LAITEC</span></a><nav class="nav" aria-label="Навигация"><a href="#projects">ПРОЕКТЫ</a><a href="#architecture">АРХИТЕКТУРА</a><a href="#contact">КОНТАКТЫ</a></nav><a class="header-contact" href="mailto:info@laitec.ru">Написать <span>↗</span></a></header>
 <main id="top"><section class="hero"><div class="hero-atmosphere" aria-hidden="true"><div class="city-skyline"></div><div class="glass-facade"></div><div class="light-horizon"></div></div><div class="hero-inner"><div class="hero-kicker"><span></span> СВЕТ СОЗДАЁТ ВОЗМОЖНОСТИ</div><h1 class="serif">Марина Малышева</h1><p class="role">Руководитель проектов LAITEC</p><p class="hero-specialty">Спортивное, архитектурное<br>и промышленное освещение</p><div class="actions"><a class="btn btn-gold" href="Marina_Malysheva_LAITEC.vcf" download><span>Сохранить контакт</span><span>↗</span></a><a class="btn btn-ghost" href="mailto:info@laitec.ru?subject=Марине%20Малышевой%20после%20Interlight"><span>Написать</span><span>↗</span></a></div></div><div class="hero-bottom"><span>ПРОЕКТЫ ПО ВСЕЙ РОССИИ</span><span>СВЕТОТЕХНИЧЕСКИЕ РЕШЕНИЯ</span><span>АРХИТЕКТУРНАЯ ЭСТЕТИКА</span></div></section>
 
-<section class="projects" id="projects"><div class="projects-header"><span class="projects-label">ПРОЕКТЫ</span><span class="projects-note">СПОРТИВНОЕ И АРХИТЕКТУРНОЕ ОСВЕЩЕНИЕ</span></div><div class="grid">
-<article class="work work-featured"><img src="assets/vtb_new.webp" alt="ВТБ Арена, Москва — проект освещения" loading="eager"><div class="featured-content"><span class="featured-eyebrow">01 / КЛЮЧЕВОЙ ПРОЕКТ</span><h3 class="serif">ВТБ Арена</h3><p class="featured-year">Проект 2026</p><p>Москва · спортивное освещение · система управления</p></div></article>
+<section class="projects" id="projects"><div class="projects-header"><span class="projects-label">Реализованные проекты</span><a class="projects-note projects-jump" href="#all-projects">Смотреть все проекты ↗</a></div><div class="grid" id="all-projects">
+<article class="work work-featured"><img src="assets/vtb_new.webp" alt="ВТБ Арена, Москва — проект освещения" loading="eager"><div class="featured-content"><span class="featured-eyebrow">КЛЮЧЕВОЙ ПРОЕКТ / 2026</span><h3 class="serif">ВТБ Арена</h3><p class="featured-year">Проект 2026</p><p>Москва · спортивное освещение · система управления</p></div></article>
 <article class="work"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/2017_Confederation_Cup_-_CHIAUS_-_Spartak_Stadium_Panorama.jpg?width=1600" alt="ЛУКОЙЛ Арена — летняя панорама стадиона и игрового поля" loading="lazy"><div class="caption-row"><div><h3 class="serif">ЛУКОЙЛ Арена</h3><p>Москва · проект · поставка · юстировка</p></div><span class="decor-arrow">— →</span></div></article>
 <article class="work"><img src="assets/sokolniki.webp" alt="Спартак Сокольники, проект освещения"><div class="caption-row"><div><h3 class="serif">Спартак Сокольники</h3><p>Москва · проектирование спортивных площадок и манежей</p></div><span class="decor-arrow">— →</span></div></article>
 <article class="work"><img src="assets/gazprom_staircase.webp" alt="Газпром Арена — парадная лестница и исторические павильоны" loading="lazy"><div class="caption-row"><div><h3 class="serif">Газпром Арена · историческая лестница</h3><p>Санкт-Петербург · концепция · светодизайн · светотехнический проект</p></div></div></article>
