@@ -161,12 +161,76 @@
  .more-projects{padding-top:15px}
  .works-grid{gap:17px}
 }
+
+/* Portfolio art direction: deep indigo, champagne-gold and restrained luxury */
+:root{
+ --night:#050d1c;--midnight:#07142a;--slate:#0b2440;
+ --warm:#edc58c;--gold:#d9a769;--cream:#f5eee3;
+ --muted:#c0c9d2;--line:rgba(230,180,106,.48);
+}
+body{background:radial-gradient(ellipse at 50% 10%,#183354 0%,#071428 44%,#030816 100%);color:var(--cream)}
+.site-frame{background:#061325;box-shadow:0 0 0 1px rgba(230,184,115,.23),0 42px 120px rgba(0,0,0,.55)}
+.site-header{background:linear-gradient(92deg,rgba(3,12,27,.96),rgba(8,26,45,.80));border-bottom:1px solid rgba(233,190,128,.52);box-shadow:0 12px 42px rgba(0,0,0,.25)}
+.brand,.brand .company{font-family:Georgia,'Times New Roman',serif;font-size:29px;letter-spacing:.27em;color:#efc58c;text-shadow:0 0 22px rgba(232,176,105,.18)}
+.main-nav a{color:#f5e9da;letter-spacing:.07em}
+.main-nav a:hover,.main-nav a:focus-visible{color:#f4c98e}
+.header-contact{color:#efc99a;border-color:rgba(239,195,126,.82);background:linear-gradient(135deg,rgba(218,173,110,.12),rgba(7,24,45,.35));border-radius:3px}
+.header-contact:hover{background:rgba(233,181,107,.24)}
+.hero{background:#061428}
+.hero-visual{background-image:linear-gradient(90deg,rgba(3,11,25,.93) 0%,rgba(3,13,30,.72) 27%,rgba(4,17,34,.24) 62%,rgba(4,16,32,.02) 96%),linear-gradient(0deg,rgba(2,9,24,.74),transparent 36%),url('assets/marina_hero_twilight_v4.webp');background-position:center center;background-size:cover}
+.hero-content{padding-top:182px}
+.hero h1{font-size:clamp(40px,3.9vw,60px);font-weight:400;color:#fff5e9;text-shadow:0 2px 24px rgba(0,0,0,.52)}
+.role{color:#f2d1a6}
+.specialization{color:#eee7e2}
+.action-primary{background:linear-gradient(108deg,#bf8951 0%,#ecc18a 53%,#d29c5d 100%);color:#101d31;border:1px solid #f4d29b;box-shadow:0 5px 22px rgba(0,0,0,.25),inset 0 1px rgba(255,244,215,.5);font-weight:600}
+.action-secondary{background:rgba(3,13,28,.7);border:1px solid #dcb37b;color:#f6e9d8}
+.value-strip{background:linear-gradient(90deg,#07172b,#112a46 50%,#07182b);border-top:1px solid rgba(241,195,132,.48);border-bottom:1px solid rgba(212,163,97,.26)}
+.value-item{color:#e8d8c2}.value-item svg{stroke:#ebba78}
+.portfolio{background:radial-gradient(ellipse at 50% 0%,#102b48 0%,#08182b 33%,#040d1b 100%);padding-top:52px}
+.section-head-text{border-left:2px solid #e9b476}
+.section-title{color:#fff4e5;letter-spacing:-.01em}
+.section-kicker,.project-number,.work-tag{color:#efbf80}
+.project-feature{border:1px solid rgba(238,187,114,.76);border-radius:8px;box-shadow:0 17px 45px rgba(0,0,0,.37),0 0 0 1px rgba(250,220,165,.05)}
+.project-feature-copy{background:linear-gradient(132deg,#122f4b 0%,#0c2039 40%,#061528 100%);padding:42px 40px;border-left:1px solid rgba(229,183,119,.30)}
+.project-feature-copy::before{content:"";width:58px;height:2px;margin-bottom:23px;background:linear-gradient(90deg,#f5ce95,#9d7042)}
+.project-feature h3{color:#fff6e8}
+.project-number{letter-spacing:.22em}
+.project-feature-copy .project-desc{font-size:15px;line-height:1.75;color:#e9e2d9;margin:12px 0 0;max-width:340px}
+.project-place{display:block;font-size:10px;letter-spacing:.22em;color:#ddb780;text-transform:uppercase;margin-bottom:13px}
+.more-projects{padding-top:28px}
+.works-grid{gap:21px}
+.work{background:linear-gradient(160deg,#0d2742 0%,#071729 100%);border:1px solid rgba(221,176,114,.47);box-shadow:0 8px 27px rgba(0,0,0,.20);transition:transform .2s,border-color .2s,box-shadow .2s}
+.work:hover{transform:translateY(-3px);border-color:rgba(249,209,148,.92);box-shadow:0 20px 36px rgba(0,0,0,.32)}
+.work-copy{border-top:1px solid rgba(218,168,107,.20)}
+.work h3{color:#f5e9da}
+.work p{color:#c9d1d8}
+.contact{background:linear-gradient(112deg,#071a30,#163654 55%,#081729);border-top:1px solid rgba(239,193,127,.6)}
+.contact h2{color:#fff3e6}
+.contact-links a:hover{color:#f5c98c}
+.footer{background:#030b19;border-top:1px solid rgba(224,178,112,.39)}
+.footer-brand{color:#eec48c;letter-spacing:.20em}
+.footer-note{color:#cdb797}
+@media(max-width:760px){
+ .brand,.brand .company{font-size:23px;letter-spacing:.19em}
+ .hero-content{padding-top:280px}
+ .hero h1{font-size:clamp(32px,8vw,41px)}
+ .hero-visual{background-image:linear-gradient(0deg,#061321 0%,rgba(6,18,34,.96) 12%,rgba(6,18,34,.79) 41%,rgba(6,18,34,.12) 77%),url('assets/marina_hero_twilight_v4.webp')}
+ .portfolio{padding-top:37px}
+ .project-feature-copy{border-left:0;border-top:1px solid rgba(239,190,127,.5);padding:24px 22px 29px}
+ .project-feature-copy::before{margin-bottom:16px}
+ .project-feature-copy .project-desc{font-size:13px;line-height:1.7;margin-top:8px}
+ .project-place{margin-bottom:8px}
+ .work:hover{transform:none}
+ .works-grid{gap:17px}
+}
+@media(max-width:400px){.brand,.brand .company{font-size:20px}}
+
 </style>
 </head>
 <body>
 <div class="site-frame" id="top">
 <header class="site-header">
-  <a class="brand" href="#top" aria-label="Марина Малышева, LAITEC, главная"><span>MARINA</span><span class="cross">×</span><span class="company">LAITEC</span></a>
+  <a class="brand" href="#top" aria-label="LAITEC, на главную"><span class="company">LAITEC</span></a>
   <nav class="main-nav" id="main-nav" aria-label="Основная навигация">
     <a href="#projects">Проекты</a><a href="#expertise">Экспертиза</a><a href="#contact">Контакты</a>
   </nav>
@@ -177,7 +241,7 @@
   <section class="hero" id="about" aria-labelledby="hero-title">
     <div class="hero-visual" aria-hidden="true"></div>
     <div class="hero-content">
-      <div class="eyebrow">Свет создаёт возможности</div>
+      
       <h1 id="hero-title">Марина Малышева</h1>
       <p class="role">Руководитель проектов LAITEC</p>
       <p class="specialization">Спортивное, архитектурное<br>и промышленное освещение</p>
@@ -199,7 +263,7 @@
   </section>
   <section class="portfolio" id="projects" aria-labelledby="portfolio-heading">
     <div class="section-head">
-      <div class="section-head-text"><div class="section-kicker">MARINA × LAITEC</div><h2 class="section-title" id="portfolio-heading">Проекты</h2></div>
+      <div class="section-head-text"><div class="section-kicker">Портфолио</div><h2 class="section-title" id="portfolio-heading">Проекты</h2></div>
     </div>
     <article class="project-feature" id="vtb-arena">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/VTB-Arena.jpg/1920px-VTB-Arena.jpg" alt="ВТБ Арена в Москве — общий вид стадиона" loading="eager" fetchpriority="high">
@@ -207,8 +271,7 @@
         <div class="project-number">Проект 2026</div>
         <h3>ВТБ Арена</h3>
         
-        <p class="project-desc">Москва · спортивное освещение и системы управления</p>
-        <button class="project-detail-trigger" type="button" id="open-vtb"><span class="circle-link" aria-hidden="true">→</span><span>Подробнее о проекте</span></button>
+        <p class="project-desc"><span class="project-place">Москва</span>На ВТБ Арене реализованы две системы управления освещением. Модернизация спортивного освещения находится в работе.</p>
       </div>
     </article>
     <div class="more-projects" id="more-projects">
@@ -232,25 +295,14 @@
     <a class="action action-primary" href="Marina_Malysheva_LAITEC.vcf" download>Сохранить контакт <span aria-hidden="true">↗</span></a>
   </section>
 </main>
-<footer class="footer"><span class="footer-brand">LAITEC</span><span class="footer-note">MARINA × LAITEC · ПРОЕКТЫ И СВЕТ · 2026</span></footer>
+<footer class="footer"><span class="footer-brand">LAITEC</span><span class="footer-note">ОСВЕЩЕНИЕ · ПРОЕКТИРОВАНИЕ · РЕАЛИЗАЦИЯ</span></footer>
 </div>
-<dialog id="vtb-dialog" aria-labelledby="vtb-dialog-heading">
-  <button class="modal-close" type="button" aria-label="Закрыть окно" id="close-vtb">×</button>
-  <div class="section-kicker">Проект 2026</div>
-  <h2 id="vtb-dialog-heading">ВТБ Арена</h2>
-  <p>Москва. Светотехнические решения для спортивного комплекса, включая систему управления освещением. Для обсуждения проекта и других реализованных объектов свяжитесь с Мариной Малышевой.</p>
-  <a class="action action-primary" href="mailto:info@laitec.ru?subject=ВТБ%20Арена%20—%20вопрос%20по%20проекту">Обсудить проект ↗</a>
-</dialog>
 <script>
   (()=>{
     const menu=document.querySelector('#main-nav');
     const toggle=document.querySelector('#menu-toggle');
     toggle.addEventListener('click',()=>{const on=menu.classList.toggle('is-open');toggle.setAttribute('aria-expanded',String(on));toggle.setAttribute('aria-label',on?'Закрыть меню':'Открыть меню')});
     menu.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{menu.classList.remove('is-open');toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Открыть меню')}));
-    const dialog=document.querySelector('#vtb-dialog');
-    document.querySelector('#open-vtb').addEventListener('click',()=>dialog.showModal());
-    document.querySelector('#close-vtb').addEventListener('click',()=>dialog.close());
-    dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
   })();
 </script>
 </body>
