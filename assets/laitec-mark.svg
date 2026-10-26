@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="LAITEC">
+<rect width="128" height="128" rx="22" fill="#061426"/>
+<rect x="6" y="6" width="116" height="116" rx="17" fill="none" stroke="#D8A56C" stroke-width="2"/>
+<path d="M38 29v69h53" fill="none" stroke="#F0C78E" stroke-width="9" stroke-linejoin="miter"/>
+<path d="M64 24h28" stroke="#D8A56C" stroke-width="2"/>
+</svg>
