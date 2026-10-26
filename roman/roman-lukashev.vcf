@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Lukashev;Roman;;;
+FN:Roman Lukashev
+ORG:LAITEC
+TITLE:General Director
+TEL;TYPE=CELL,VOICE:+79111233617
+EMAIL;TYPE=WORK:roman@laitec.ru
+URL:https://laitec.ru
+URL;TYPE=WORK:https://mmalysheva22-create.github.io/marina-laitec-portfolio/roman/
+ADR;TYPE=WORK:;;Saint Petersburg;;;Russia
+NOTE:Генеральный директор светотехнической компании Лайтек
+END:VCARD
