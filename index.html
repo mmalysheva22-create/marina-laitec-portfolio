@@ -9,7 +9,7 @@
   <meta property="og:title" content="Марина Малышева × LAITEC — портфолио проектов">
   <meta property="og:description" content="Спортивное, архитектурное и промышленное освещение. Проекты по всей России.">
   <title>Марина Малышева × LAITEC — Портфолио</title>
-  <link rel="preload" as="image" href="assets/marina_twilight_architecture.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/marina_hero_twilight_v4.webp" fetchpriority="high">
   <style>
     :root{--night:#06111e;--midnight:#071523;--slate:#0c2032;--warm:#e9be87;--gold:#d9a36b;--cream:#f3eee9;--muted:#b8c4cc;--line:rgba(229,183,127,.36);--serif:Georgia,'Times New Roman',serif;--sans:'Segoe UI',Arial,sans-serif}
     *{box-sizing:border-box}
@@ -31,7 +31,7 @@
     .mobile-nav-toggle{display:none;border:0;background:transparent;color:var(--cream);width:38px;height:38px;padding:9px;cursor:pointer}
     .mobile-nav-toggle i{display:block;height:1px;margin:6px 0;background:#f7eee8}
     .hero{position:relative;min-height:610px;background:var(--midnight);isolation:isolate}
-    .hero-visual{position:absolute;inset:0;background-image:linear-gradient(90deg,rgba(4,13,25,.89) 0%,rgba(5,16,29,.74) 26%,rgba(5,15,27,.31) 53%,rgba(4,13,25,.03) 92%),linear-gradient(0deg,rgba(4,11,22,.45),transparent 34%),url('assets/marina_twilight_architecture.webp');background-size:cover;background-position:center 47%;z-index:-1}
+    .hero-visual{position:absolute;inset:0;background-image:linear-gradient(90deg,rgba(4,13,25,.89) 0%,rgba(5,16,29,.74) 26%,rgba(5,15,27,.31) 53%,rgba(4,13,25,.03) 92%),linear-gradient(0deg,rgba(4,11,22,.45),transparent 34%),url('assets/marina_hero_twilight_v4.webp');background-size:cover;background-position:center 47%;z-index:-1}
     .hero-content{padding:175px 6.3% 55px;max-width:700px;min-height:528px}
     .eyebrow{display:flex;align-items:center;gap:12px;color:#e9c09b;font-size:10px;line-height:1.4;letter-spacing:.22em;text-transform:uppercase}
     .eyebrow:before{content:"";display:block;width:24px;height:1px;background:#e7af76;flex:none}
@@ -112,7 +112,7 @@
       .main-nav{display:none;position:absolute;top:64px;left:0;right:0;padding:16px 20px 20px;background:rgba(5,15,29,.97);border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:0;box-shadow:0 15px 25px #0005}
       .main-nav.is-open{display:flex}.main-nav a{padding:12px 2px;font-size:13px}
       .hero{min-height:0}
-      .hero-visual{background-image:linear-gradient(0deg,#061321 0%,rgba(6,18,33,.95) 11%,rgba(6,18,33,.72) 36%,rgba(6,18,33,.18) 68%,rgba(6,18,33,.08) 100%),url('assets/marina_twilight_architecture.webp');background-position:53% top;background-size:cover}
+      .hero-visual{background-image:linear-gradient(0deg,#061321 0%,rgba(6,18,33,.95) 11%,rgba(6,18,33,.72) 36%,rgba(6,18,33,.18) 68%,rgba(6,18,33,.08) 100%),url('assets/marina_hero_twilight_v4.webp');background-position:53% top;background-size:cover}
       .hero-content{min-height:595px;padding:287px 23px 29px;display:flex;flex-direction:column;justify-content:flex-end;max-width:none}
       .eyebrow{font-size:9px;letter-spacing:.16em;gap:10px}.eyebrow:before{width:22px}
       .hero h1{font-size:clamp(32px,8vw,42px);line-height:1.13;margin:16px 0 8px;white-space:normal}
@@ -142,7 +142,26 @@
     }
     @media(max-width:400px){.site-header{padding-inline:16px}.brand{font-size:18px;gap:7px}.hero-content{padding-top:260px;min-height:568px}.hero h1{font-size:33px}.section-title{font-size:25px}.topic-meta{left:115px}.topic-card img{width:112px}.works-grid{grid-template-columns:1fr}.work-media{aspect-ratio:1.9}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.action,.topic-card img,.work img{transition:none}}
-  </style>
+  
+/* v4: direct projects with no artificial category layer and crisp hero */
+.hero-visual{background-image:linear-gradient(90deg,rgba(3,12,25,.69) 0%,rgba(4,14,27,.48) 34%,rgba(3,12,25,.12) 61%,transparent 90%),linear-gradient(0deg,rgba(3,12,25,.31),transparent 38%),url('assets/marina_hero_twilight_v4.webp');background-position:center center;background-size:cover}
+.project-feature{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(300px,.85fr);min-height:370px;align-items:stretch;isolation:auto;background:#0a1b2d}
+.project-feature img{position:relative;inset:auto;z-index:auto;display:block;width:100%;height:100%;min-height:370px;object-fit:cover;object-position:center 46%}
+.project-feature::after{display:none}
+.project-feature-copy{position:relative;max-width:none;min-height:370px;padding:38px 36px;background:linear-gradient(115deg,#0b2033,#091724);justify-content:center}
+.project-feature h3{font-size:clamp(42px,4.1vw,62px)}
+.more-projects{padding-top:20px}
+.project-note{margin-top:23px}
+@media(max-width:760px){
+ .hero-visual{background-image:linear-gradient(0deg,#061321 0%,rgba(6,18,33,.92) 12%,rgba(6,18,33,.69) 37%,rgba(6,18,33,.08) 72%),url('assets/marina_hero_twilight_v4.webp');background-position:59% top;background-size:cover}
+ .project-feature{display:flex;flex-direction:column;min-height:0}
+ .project-feature img{width:100%;height:auto;min-height:0;aspect-ratio:1.58;object-fit:cover;object-position:center}
+ .project-feature-copy{min-height:0;padding:23px 22px 27px;max-width:none;background:linear-gradient(120deg,#0b2033,#091724)}
+ .project-feature h3{font-size:41px}
+ .more-projects{padding-top:15px}
+ .works-grid{gap:17px}
+}
+</style>
 </head>
 <body>
 <div class="site-frame" id="top">
@@ -180,11 +199,10 @@
   </section>
   <section class="portfolio" id="projects" aria-labelledby="portfolio-heading">
     <div class="section-head">
-      <div class="section-head-text"><div class="section-kicker">Проекты</div><h2 class="section-title" id="portfolio-heading">Реализованные проекты</h2></div>
-      <a class="section-link" href="#more-projects">Смотреть все проекты <span aria-hidden="true">↗</span></a>
+      <div class="section-head-text"><div class="section-kicker">MARINA × LAITEC</div><h2 class="section-title" id="portfolio-heading">Проекты</h2></div>
     </div>
     <article class="project-feature" id="vtb-arena">
-      <img src="assets/vtb_new.webp" alt="ВТБ Арена в Москве: вид на спортивный комплекс" loading="eager">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/VTB-Arena.jpg/1920px-VTB-Arena.jpg" alt="ВТБ Арена в Москве — общий вид стадиона" loading="eager" fetchpriority="high">
       <div class="project-feature-copy">
         <div class="project-number">Проект 2026</div>
         <h3>ВТБ Арена</h3>
@@ -193,13 +211,8 @@
         <button class="project-detail-trigger" type="button" id="open-vtb"><span class="circle-link" aria-hidden="true">→</span><span>Подробнее о проекте</span></button>
       </div>
     </article>
-    <div class="topic-grid" aria-label="Направления проектов">
-      <a class="topic-card" href="#hollywood"><img src="assets/hollywood.webp" alt="Архитектурное освещение ТРК Голливуд" loading="lazy"><div class="topic-meta"><div><h3 class="topic-title">Городская среда</h3><p class="topic-caption">Архитектурное освещение</p></div><span class="circle-link" aria-hidden="true">→</span></div></a>
-      <a class="topic-card" href="#gazprom"><img src="assets/gazprom_staircase.webp" alt="Световая концепция исторической лестницы" loading="lazy"><div class="topic-meta"><div><h3 class="topic-title">Архитектура и свет</h3><p class="topic-caption">Концепции и проекты</p></div><span class="circle-link" aria-hidden="true">→</span></div></a>
-      <a class="topic-card" href="#lukoil"><img src="assets/lukoil.webp" alt="Спортивное освещение стадиона" loading="lazy"><div class="topic-meta"><div><h3 class="topic-title">Спортивные объекты</h3><p class="topic-caption">Современные световые решения</p></div><span class="circle-link" aria-hidden="true">→</span></div></a>
-    </div>
     <div class="more-projects" id="more-projects">
-      <h2 class="subhead">Другие проекты</h2>
+      
       <div class="works-grid">
         <article class="work" id="hollywood"><div class="work-media"><img src="assets/hollywood.webp" alt="ТРК Голливуд, Санкт-Петербург" loading="lazy"></div><div class="work-copy"><span class="work-tag">Архитектурное освещение</span><h3>ТРК «Голливуд»</h3><p>Санкт-Петербург · светотехнический проект, поставка, пусконаладка</p></div></article>
         <article class="work" id="lukoil"><div class="work-media"><img src="assets/lukoil.webp" alt="ЛУКОЙЛ Арена, Москва" loading="lazy"></div><div class="work-copy"><span class="work-tag">Спортивное освещение</span><h3>ЛУКОЙЛ Арена</h3><p>Москва · проект, поставка, юстировка</p></div></article>
@@ -211,7 +224,7 @@
         <article class="work" id="ushakov"><div class="work-media"><img src="assets/ushakov.webp" alt="Собор Феодора Ушакова в Саранске" loading="lazy"></div><div class="work-copy"><span class="work-tag">Архитектурное освещение</span><h3>Собор Феодора Ушакова</h3><p>Саранск · проект и реализация</p></div></article>
       </div>
     </div>
-    <p class="project-note">В портфолио представлены фотографии объектов и визуализации светотехнических решений.</p>
+    <p class="project-note">В портфолио представлены фотографии объектов и визуализации светотехнических решений. Фото ВТБ Арены: <a href="https://commons.wikimedia.org/wiki/File:VTB-Arena.jpg" target="_blank" rel="noopener">Cossrad / Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</p>
   </section>
   <section class="contact" id="contact" aria-labelledby="contact-title">
     <div><h2 id="contact-title">Марина<br>Малышева</h2><small>Руководитель проектов<br>ООО «Лайтек»</small></div>
